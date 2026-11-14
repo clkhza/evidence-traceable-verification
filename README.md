@@ -42,6 +42,9 @@ ETVM is a proposed framework; its effectiveness has not yet been empirically val
 
 ## Repository Structure
 
+
+## Repository structure
+
 ```text
 evidence-traceable-verification/
 ├── README.md
@@ -50,10 +53,12 @@ evidence-traceable-verification/
 │   ├── README.md
 │   ├── ai_annotation_master_sheet_Claude.csv
 │   └── ai_annotation_master_sheet.csv
-└── docs/
-    ├── methodology.md
-    ├── annotation-rubric.md
-    └── ethics.md
+├── docs/
+│   ├── methodology.md
+│   ├── annotation-rubric.md
+│   └── ethics.md
+└── scripts/
+    └── averitec_audit.py
 ```
 
 ## Reproducibility and Limitations
