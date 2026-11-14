@@ -23,7 +23,7 @@ The records were annotated using **Claude Sonnet 5.5** across six dimensions:
 5. Uncertainty acknowledged (UA)
 6. Justification-to-evidence linkage (JL)
 
-The repository includes the completed annotation sheet and a blank annotation template. See [`data/README.md`](data/README.md) for details.
+The repository includes the completed Claude annotation sheet and the corresponding unannotated records. See data/README.md for details.
 
 ## Proposed framework
 
@@ -31,11 +31,9 @@ ETVM organizes verification around traceable relationships between claims, evide
 
 ## Repository structure
 
-```text
+evidence-traceable-verification/
 ├── README.md
 ├── CITATION.cff
-├── paper/
-│   └── paper.pdf
 ├── docs/
 │   ├── methodology.md
 │   ├── annotation-rubric.md
@@ -44,7 +42,6 @@ ETVM organizes verification around traceable relationships between claims, evide
     ├── README.md
     ├── ai_annotation_master_sheet_Claude.csv
     └── ai_annotation_master_sheet.csv
-```
 
 ## Reproducibility and limitations
 
