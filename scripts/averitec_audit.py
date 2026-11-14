@@ -27,27 +27,25 @@ TARGET_CATEGORIES = [
 
 
 # --------------------------------------------------
-# 2. Load the AVeriTeC development dataset
+# 2. Load dataset
 # --------------------------------------------------
 
 if not DATASET_PATH.exists():
     raise FileNotFoundError(
-        f"Dataset not found: {DATASET_PATH}\n"
-        "Download dev.json from the original AVeriTeC repository "
-        "and place it in the data/ folder."
+        f"Dataset not found: {DATASET_PATH}"
     )
 
 with open(DATASET_PATH, "r", encoding="utf-8") as f:
     dev_data = json.load(f)
 
 if not isinstance(dev_data, list):
-    raise ValueError("Expected dev.json to contain a list of records.")
+    raise ValueError("Expected dev.json to contain a list.")
 
-print(f"Total records in dev.json: {len(dev_data)}")
+print(f"Total dataset records: {len(dev_data)}")
 
 
 # --------------------------------------------------
-# 3. Group records by verdict category
+# 3. Group records by verdict
 # --------------------------------------------------
 
 verdict_groups = {category: [] for category in TARGET_CATEGORIES}
@@ -60,97 +58,129 @@ for idx, item in enumerate(dev_data):
         record["dataset_row"] = idx
         verdict_groups[label].append(record)
 
-print("\nAvailable records by category:")
+print("\nAvailable records:")
 
 for category, records in verdict_groups.items():
     print(f"{category}: {len(records)}")
 
-
-# --------------------------------------------------
-# 4. Validate category sizes
-# --------------------------------------------------
-
 for category, records in verdict_groups.items():
     if len(records) < SAMPLE_SIZE:
         raise ValueError(
-            f"Insufficient records for '{category}': "
-            f"{len(records)} available; {SAMPLE_SIZE} required."
+            f"Not enough records for {category}: "
+            f"{len(records)} available."
         )
 
 
 # --------------------------------------------------
-# 5. Perform stratified random sampling
+# 4. Stratified random sampling
 # --------------------------------------------------
 
 rng = random.Random(RANDOM_SEED)
 sampled_records = []
 
 for category in TARGET_CATEGORIES:
-    sampled = rng.sample(verdict_groups[category], SAMPLE_SIZE)
-    sampled_records.extend(sampled)
-
-    print(f"Selected {len(sampled)} records: {category}")
-
-if len(sampled_records) != 120:
-    raise ValueError(
-        f"Expected 120 records, but selected {len(sampled_records)}."
+    selected = rng.sample(
+        verdict_groups[category],
+        SAMPLE_SIZE
     )
 
+    sampled_records.extend(selected)
+
+    print(f"Selected {len(selected)}: {category}")
+
+if len(sampled_records) != 120:
+    raise ValueError("The sample must contain exactly 120 records.")
+
 
 # --------------------------------------------------
-# 6. Format questions and answers
+# 5. Extract nested questions and answers
 # --------------------------------------------------
 
-def format_questions_and_answers(qas):
+def format_questions_and_answers(questions):
 
-    if not isinstance(qas, list):
-        return str(qas) if qas is not None else ""
+    if not isinstance(questions, list):
+        return ""
 
     formatted = []
 
-    for qa in qas:
-        if isinstance(qa, dict):
-            question = qa.get("question", "")
-            answer = qa.get("answer", "")
-            qa_type = qa.get("qa_type", "Unknown")
+    for question_item in questions:
+
+        question = question_item.get("question", "")
+        answers = question_item.get("answers", [])
+
+        if not isinstance(answers, list):
+            answers = [answers] if answers else []
+
+        if not answers:
+            formatted.append(
+                f"Q: {question}\nA: No answer recorded."
+            )
+            continue
+
+        for answer_item in answers:
+
+            if not isinstance(answer_item, dict):
+                continue
+
+            answer = answer_item.get("answer", "")
+            answer_type = answer_item.get("answer_type", "")
+            source_url = answer_item.get("source_url", "")
+            source_medium = answer_item.get("source_medium", "")
+            cached_url = answer_item.get("cached_source_url", "")
 
             formatted.append(
                 f"Q: {question}\n"
-                f"A: {answer} [Type: {qa_type}]"
+                f"A: {answer}\n"
+                f"Answer type: {answer_type}\n"
+                f"Source URL: {source_url}\n"
+                f"Cached source URL: {cached_url}\n"
+                f"Source medium: {source_medium}"
             )
-        else:
-            formatted.append(str(qa))
 
-    return "\n".join(formatted)
+    return "\n\n".join(formatted)
 
 
 # --------------------------------------------------
-# 7. Format source URLs
+# 6. Extract source URLs
 # --------------------------------------------------
 
-def format_sources(sources):
+def extract_source_urls(questions):
 
-    if isinstance(sources, list):
-        return "\n".join(str(source) for source in sources)
+    urls = []
 
-    return str(sources) if sources is not None else ""
+    if not isinstance(questions, list):
+        return ""
+
+    for question_item in questions:
+
+        answers = question_item.get("answers", [])
+
+        if not isinstance(answers, list):
+            answers = [answers] if answers else []
+
+        for answer_item in answers:
+
+            if not isinstance(answer_item, dict):
+                continue
+
+            for field in ["source_url", "cached_source_url"]:
+                url = answer_item.get(field)
+
+                if url and url not in urls:
+                    urls.append(url)
+
+    return "\n".join(urls)
 
 
 # --------------------------------------------------
-# 8. Create the annotation master sheet
+# 7. Create annotation master sheet
 # --------------------------------------------------
 
 rows = []
 
 for item in sampled_records:
 
-    qas = item.get("questions_and_answers", [])
-
-    sources = (
-        item.get("evidence_urls")
-        or item.get("source_urls")
-        or []
-    )
+    questions = item.get("questions", [])
 
     row = {
         "dataset_row": item.get("dataset_row"),
@@ -161,8 +191,12 @@ for item in sampled_records:
         "fact_checking_article": item.get("fact_checking_article"),
         "original_claim_url": item.get("original_claim_url"),
         "justification": item.get("justification"),
-        "questions_and_answers": format_questions_and_answers(qas),
-        "source_urls": format_sources(sources),
+
+        "questions_and_answers":
+            format_questions_and_answers(questions),
+
+        "source_urls":
+            extract_source_urls(questions),
 
         # Six audit dimensions
         "CC": None,
@@ -178,7 +212,7 @@ for item in sampled_records:
         "JL": None,
         "JL_rationale": None,
 
-        # Review and annotation metadata
+        # Annotation metadata
         "ai_notes": None,
         "review_status": "pending",
         "reviewer": None,
@@ -189,7 +223,7 @@ for item in sampled_records:
 
 
 # --------------------------------------------------
-# 9. Export the master sheet
+# 8. Export master sheet
 # --------------------------------------------------
 
 output_df = pd.DataFrame(rows)
@@ -204,27 +238,38 @@ output_df.to_csv(
 
 
 # --------------------------------------------------
-# 10. Verify the generated sample
+# 9. Verify sample
 # --------------------------------------------------
 
-print("\nSampling verification:")
-
-print(f"Total sampled records: {len(output_df)}")
-print(f"Unique dataset rows: {output_df['dataset_row'].nunique()}")
-
-print("\nRecords per verdict category:")
-print(output_df["label"].value_counts().to_string())
-
-assert len(output_df) == 120, "Sample must contain exactly 120 records."
-assert output_df["dataset_row"].nunique() == 120, "Duplicate dataset rows detected."
+assert len(output_df) == 120
+assert output_df["dataset_row"].nunique() == 120
 
 for category in TARGET_CATEGORIES:
     count = (output_df["label"] == category).sum()
+
     assert count == SAMPLE_SIZE, (
-        f"Expected {SAMPLE_SIZE} records for {category}, found {count}."
+        f"Incorrect sample count for {category}: {count}"
     )
 
-print("\nSuccessfully generated annotation master sheet:")
-print(OUTPUT_PATH)
-print(f"Rows: {len(output_df)}")
-print(f"Columns: {len(output_df.columns)}")
+print("\nSampling completed successfully.")
+print(f"Total records: {len(output_df)}")
+print(f"Output: {OUTPUT_PATH}")
+
+print("\nRecords per category:")
+print(output_df["label"].value_counts().to_string())
+
+print("\nQuestions and answers extracted:")
+print(
+    output_df["questions_and_answers"]
+    .str.len()
+    .gt(0)
+    .sum()
+)
+
+print("\nSource URL fields populated:")
+print(
+    output_df["source_urls"]
+    .str.len()
+    .gt(0)
+    .sum()
+)
