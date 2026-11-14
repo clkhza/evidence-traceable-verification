@@ -77,4 +77,4 @@ The results should be interpreted as descriptive findings from a limited sample 
 
 ## 7. Reproducibility
 
-The repository provides the annotation sheets, coding rubric, and research paper to support inspection of the procedure. Quantitative results should be checked against the completed annotation sheet before publication or reuse.
+The repository provides the annotation sheets, coding rubric, and methodological documentation to support inspection of the procedure. Quantitative results should be checked against the completed annotation sheet before publication or reuse.
