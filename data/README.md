@@ -17,9 +17,9 @@ This file represents the completed model-assisted annotation output used in the 
 
 ### `ai_annotation_master_sheet.csv`
 
-An empty annotation template intended for future annotation, replication, or extension of the study.
+Contains the unannotated version of the sampled records, preserving the original record information and annotation columns without completed annotation entries.
 
-It preserves the annotation sheet's column structure without the completed annotation entries.
+It can be used as the starting point for future annotation, replication, or extension of the study.
 
 ## Coding reference
 
