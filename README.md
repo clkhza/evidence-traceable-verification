@@ -6,13 +6,13 @@
 
 This project investigates how AI fact-checking records document the relationship between claims, evidence, sources, and verification judgments. Using the AVeriTeC benchmark as a case study, it conducts a structural audit of 120 records and introduces the **Evidence-Traceable Verification Model (ETVM)**, a proposed framework for more transparent and auditable verification.
 
-## Research objectives
+## Research Objectives
 
 - Examine how effectively fact-checking records document the evidence supporting their verdicts.
 - Identify documentation gaps across six dimensions of evidence traceability.
 - Develop a structured framework for representing and auditing evidence-to-claim relationships.
 
-## Dataset and annotation
+## Dataset and Annotation
 
 The study uses a stratified sample of 120 records from the AVeriTeC development dataset, comprising 30 records from each of four verdict categories:
 
@@ -40,7 +40,7 @@ ETVM proposes a structured approach to connecting claims with evidence passages,
 
 ETVM is a proposed framework; its effectiveness has not yet been empirically validated.
 
-## Repository structure
+## Repository Structure
 
 ```text
 evidence-traceable-verification/
@@ -56,7 +56,7 @@ evidence-traceable-verification/
     └── ethics.md
 ```
 
-## Reproducibility and limitations
+## Reproducibility and Limitations
 
 The repository documents the sampling procedure, annotation criteria, and coding scheme. The findings are descriptive and should be interpreted in light of the sample size and model-assisted annotation process.
 
