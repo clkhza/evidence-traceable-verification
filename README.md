@@ -42,7 +42,7 @@ evidence-traceable-verification/
     ├── README.md
     ├── ai_annotation_master_sheet_Claude.csv
     └── ai_annotation_master_sheet.csv
-
+    
 ## Reproducibility and limitations
 
 The methodology, annotation rubric, and data documentation describe the sampling and coding procedures. Reported quantitative results should be interpreted in light of the study's sample size and model-assisted annotation process. The audit evaluates the documentation available in benchmark records, not the complete internal reasoning or investigative process behind the original fact-checks.
