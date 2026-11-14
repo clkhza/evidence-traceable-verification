@@ -36,7 +36,7 @@ Each record was assessed across six dimensions:
 | Uncertainty acknowledged | UA | Whether limitations and unresolved uncertainty are made explicit |
 | Justification-to-evidence linkage | JL | Whether the reasoning connecting evidence to the assessment is traceable |
 
-The completed annotation sheet is `data/ai_annotation_master_sheet_Claude.csv`. A blank annotation template is provided as `data/ai_annotation_master_sheet.csv`.
+The completed annotation sheet is `data/ai_annotation_master_sheet_Claude.csv`. The corresponding unannotated records are provided in `data/ai_annotation_master_sheet.csv`.
 
 ## 4. Coding scheme
 
