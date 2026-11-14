@@ -68,29 +68,35 @@ A code of 0 does not establish that the original fact-checker failed to consider
 
 The analysis calculates documented coverage and omission rates separately for each of the six dimensions.
 
-For a given dimension \(j\), let \(E_j\) denote the set of records receiving a determinate and applicable binary assessment (0 or 1). Let \(x_{ij}\) represent the binary code assigned to record \(i\) for dimension \(j\).
+For each dimension j:
+
+- E_j represents the set of records receiving a determinate and applicable binary assessment (0 or 1).
+- |E_j| represents the number of records in that set.
+- x_ij represents the binary code assigned to record i for dimension j.
 
 **Documented coverage (%)** is calculated as:
 
-\[
-C_j =
-\left(
-\frac{\sum_{i \in E_j} x_{ij}}{|E_j|}
-\right)
-\times 100
-\]
+```text
+C_j = (Number of records coded 1 / |E_j|) × 100
+```
+
+Equivalently:
+
+```text
+C_j = (Σ x_ij for i ∈ E_j / |E_j|) × 100
+```
 
 **Omission rate (%)** is calculated as:
 
-\[
-O_j =
-\left(
-\frac{\sum_{i \in E_j} \mathbb{1}(x_{ij}=0)}{|E_j|}
-\right)
-\times 100
-\]
+```text
+O_j = (Number of records coded 0 / |E_j|) × 100
+```
 
-where \(\mathbb{1}(x_{ij}=0)\) equals 1 when the record receives a code of 0 and 0 otherwise.
+Equivalently:
+
+```text
+O_j = (Σ 1(x_ij = 0) for i ∈ E_j / |E_j|) × 100
+```
 
 Codes U and N/A are excluded from the binary denominators. Their frequencies should be reported separately to make the extent of indeterminate and non-applicable assessments visible. Because the number of determinate, applicable records may differ across dimensions, each dimension may have a different denominator.
 
