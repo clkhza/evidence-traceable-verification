@@ -1,51 +1,41 @@
-# Annotation Data
 
-This directory contains the annotation materials used in the evidence-traceability audit.
+# Data
+
+This directory contains the annotation materials used in the structural audit of AVeriTeC.
 
 ## Files
 
 ### `ai_annotation_master_sheet_Claude.csv`
 
-Contains the completed annotations for the 120 sampled AVeriTeC records.
+The completed annotation sheet containing Claude Sonnet 5.5 assessments of the 120 sampled AVeriTeC records across six dimensions:
 
-- Annotation model: Claude Sonnet 5.5
-- Sample size: 120 records
-- Verdict categories: 30 records per category
-- Audit dimensions: CC, CE, AE, CS, UA, and JL
-
-This file represents the completed model-assisted annotation output used in the study.
+- CC: Claim-component coverage
+- CE: Counterevidence addressed
+- AE: Alternative explanations
+- CS: Context and scope
+- UA: Uncertainty acknowledged
+- JL: Justification-to-evidence linkage
 
 ### `ai_annotation_master_sheet.csv`
 
-Contains the unannotated version of the sampled records, preserving the original record information and annotation columns without completed annotation entries.
+The unannotated master sheet containing the same 120 sampled records, with annotation fields left empty. It provides the corresponding starting point for reviewing or reproducing the annotation process.
 
-It can be used as the starting point for future annotation, replication, or extension of the study.
+## Dataset source
 
-## Coding reference
+The records originate from the AVeriTeC development dataset.
 
-The annotation codes are:
-
-| Code | Meaning |
-|---|---|
-| 1 | Documented |
-| 0 | Omission |
-| U | Unclear / insufficient information |
-| N/A | Not applicable |
-
-See [`../docs/annotation-rubric.md`](../docs/annotation-rubric.md) for the full coding definitions.
-
-## Data interpretation
-
-The annotations evaluate evidence traceability in the information available in each benchmark record. They do not independently establish the truth of the underlying claims or measure the complete investigative process.
-
-Quantitative results should be interpreted alongside the methodology and limitations described in the research paper.
-
-## Data provenance and access
-
-The study uses the AVeriTeC development dataset. The original benchmark is available at:
-
+Original benchmark:
 https://github.com/MichSchli/AVeriTeC
 
-The original dataset's licensing and access conditions remain applicable. This repository does not grant additional redistribution rights for third-party benchmark content.
+## Annotation codes
 
-Before public distribution, ensure that both annotation files comply with the relevant dataset terms and contain no restricted or confidential information.
+- `1`: Documented coverage
+- `0`: Identifiable omission
+- `U`: Insufficient information
+- `N/A`: Not applicable
+
+Codes `U` and `N/A` are excluded from binary coverage and omission calculations and are reported separately.
+
+## Important note
+
+Claude Sonnet 5.5 was used as an annotation instrument, not as ground truth. The annotations were not independently validated through human double-coding or formal inter-annotator reliability testing.
