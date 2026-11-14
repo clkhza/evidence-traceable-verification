@@ -1,0 +1,1063 @@
+dataset_row,label,claim,claim_date,speaker,fact_checking_article,original_claim_url,justification,questions_and_answers,source_urls,CC,CC_rationale,CE,CE_rationale,AE,AE_rationale,CS,CS_rationale,UA,UA_rationale,JL,JL_rationale,ai_notes,review_status,reviewer,review_date
+10,Conflicting Evidence/Cherrypicking,"Donald Trump, when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the Atlantic. By the way, the same stable genius who said the biggest problem we had in the Revolutionary War is we didn’t have enough airports.",30-10-2020,Joe Biden,https://web.archive.org/web/20210212055748/https://www.washingtonpost.com/politics/2020/11/02/fact-checking-final-arguments-biden-trump/,,"There is a few too many claims in this claim, so while one is true, he did say we should detonate a nuclear bomb, i cannot confirm all are true ","Q: Did Trump ever suggest bombing hurricanes to prevent them from reaching the US
+A: Trump suggested nuking hurricanes to stop them from hitting U.S [Type: Extractive]
+Q: Did Donald J. Trump say; ''biggest problem we had in the Revolutionary War is we didn’t have enough airports''?
+A: He did speak of the congressional army taking all of the airports over, however there were no airports at the time. However he blamed his teleprompter. [Type: Abstractive]","https://web.archive.org/web/20210212183744/https://www.axios.com/trump-nuclear-bombs-hurricanes-97231f38-2394-4120-a3fa-8c9cf0e3f51c.html
+https://www.nbcnews.com/politics/donald-trump/trump-blames-teleprompter-revolutionary-war-airports-flub-n1026931",,,,,,,,,,,,,,pending,,
+11,Conflicting Evidence/Cherrypicking,The U.S. surgeon general and the Centers for Disease Control both previously said that ‘masks are not effective in preventing [the] general public from catching coronavirus.’,29-10-2020,Yinon Weiss,https://web.archive.org/web/20210711073635/https://healthfeedback.org/claimreview/wearing-face-masks-helps-reduce-the-spread-of-covid-19-but-it-only-confers-partial-protection-and-should-be-combined-with-additional-public-health-measures/,https://thefederalist.com/2020/10/29/these-12-graphs-show-mask-mandates-do-nothing-to-stop-covid/,There is a 79% reduction made in certain situations. But not effective in certain other situations. ,"Q: Are masks effective in preventing people from catching coronavirus?
+A: The effectiveness of face masks is dependent on how they are used. Face mask use was 79% effective in reducing transmission in certain situations. But not effective in certain other situations. [Type: Extractive]",https://dx.doi.org/10.1136/bmjgh-2020-002794,,,,,,,,,,,,,,pending,,
+18,Conflicting Evidence/Cherrypicking,Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out.,28-10-2020,Elizabeth Gilbert,https://web.archive.org/web/20210721024443/https://factcheck.thedispatch.com/p/will-your-ballot-be-thrown-out-if,https://web.archive.org/web/20201029195951/https://www.facebook.com/GilbertLiz/photos/a.356148997800555/3549940058421417/,The claim is cherrypicking as some states do accept the ballots and some do not.,"Q: Do some states accept ballots that were postmarked before election day?
+A: There are 22 states plus the District of Columbia [Type: Abstractive]
+Q: Are there states which do require votes to arrive by election day.
+A: Wisconsin is one of about 30 states that require absentee ballots be received by Election Day to be counted. [Type: Extractive]
+Q: Does the original posterLiz Gilbert mention the state that does not allow voting after deadline?
+A: No [Type: Boolean]","https://www.buzzfeednews.com/article/addybaird/vote-by-mail-state-deadlines
+https://www.cbsnews.com/news/wisconsin-election-supreme-court-rules-againt-absentee-ballots-after-election-day/
+https://www.facebook.com/GilbertLiz/photos/a.356148997800555/3549940058421417",,,,,,,,,,,,,,pending,,
+33,Conflicting Evidence/Cherrypicking,"America went from 75,000 flu deaths last year in 2019 to almost 0 in 2020",26-10-2020,,https://web.archive.org/web/20210310020652/https://healthfeedback.org/claimreview/fewer-flu-cases-observed-in-the-start-of-this-years-flu-season-than-in-previous-years-but-donald-trump-jr-s-tweet-suggesting-data-manipulation-is-unsupported-and-cites-inaccurate-fi/,,"There were an estimated 21,909 flu deaths during the 2019-2020 flu season, not 75,000. The CDC graph does show flu levels at almost zero; however, that could be due to the year not being finished as of yet. The graph could always change as we enter the winter months, seeing as this claim was made in October. Hence, there is some conflicting evidence here.  ","Q: How many flu deaths had the U.S recorded by the end of 2019?
+A: The U.S. Centers for Disease Control and Prevention (CDC) estimated 21,909 flu deaths during the 2019-2020 flu season, [Type: Abstractive]
+Q: When was this claim made?
+A: tweet was published during week 44 of the year (26 October to 1 November). [Type: Extractive]
+Q: Does flu effect people all year round?
+A: Flu season’ — as determined by elevated flu activity – also varies from season to season. During most seasons, activity begins to increase in October, most often peaks between December and February and can remain elevated into May. [Type: Extractive]
+Q: Did the U.S record any Flu deaths in the whole year of 2020?
+A: The cdc graph for flu death shows the line at 0 and going down, for 2020 through to  2021! [Type: Abstractive]","Metadata
+https://archive.ph/iA8lL
+https://web.archive.org/web/20210308170503/https://www.cdc.gov/flu/weekly/overview.htm//
+https://web.archive.org/web/20210310020652im_/https://healthfeedback.org/wp-content/uploads/2020/10/recorded-number-flu-deaths.png",,,,,,,,,,,,,,pending,,
+43,Conflicting Evidence/Cherrypicking,Donald Trump said that $15 an hour is too much for essential workers,24-10-2020,Joe Biden,https://web.archive.org/web/20210301032120/https://www.politifact.com/factchecks/2020/oct/30/joe-biden/does-donald-trump-think-15-hour-too-much-essential/,,"Even though Trump said similar to this, it was taking out of context. The claim was cherrypicking. ","Q: Did Donald Trump say that $15 an hour is too much for essential workers?
+A: Trump Says He’d ‘Consider’ $15 Per Hour Federal Minimum Wage, But Prefers To Leave It To States [Type: Extractive]",https://www.forbes.com/sites/nicholasreimann/2020/10/23/trump-says-hed-consider-15-per-hour-federal-minimum-wage-but-prefers-to-leave-it-to-states/?sh=4abf846e6486,,,,,,,,,,,,,,pending,,
+50,Conflicting Evidence/Cherrypicking,Twitter now putting warnings on tweets that are just unedited clips of Biden saying he would end fracking,23-10-2020,Zach Parkinson,https://web.archive.org/web/20201101032342/https://leadstories.com/hoax-alert/2020/10/fact-check-warning-not-just-for-biden-tweets-new-policy-applies-to-all-users.html,,Twitter put those warning on tweets about Biden's speech because they were misleading but the tags were not only on the Biden's tweet,"Q: Have Twitter started putting warnings on tweets that are just unedited clips of Biden saying he would end fracking?
+A: Twitter automatically warns when the user has not opened and read the item to be re-tweeted. ""Headlines don't tell the whole story,"" the Twitter message says. ""You can read the article on Twitter before Retweeting.""
+
+Twitter announced a set of changes to try to stem the spread of misinformation ahead of the November 3, 2020 presidential election. Among the most significant is a request that users add their own content before retweeting someone else's:
+
+(W)e will encourage people to add their own commentary prior to amplifying content by prompting them to Quote Tweet instead of Retweet. People who go to Retweet will be brought to the Quote Tweet composer where they'll be encouraged to comment before sending their Tweet. [Type: Abstractive]
+Q: Had Twitter been putting warnings on un-edited tweets about Biden saying he would end fracking at the time of the claim (October 2020)?
+A: Yes [Type: Boolean]
+Q: Why was Twitter putting warnings on Tweets about Biden's fracking stance?
+A: Among the most significant reasons is a request that users add their own content before retweeting someone else's: [Type: Extractive]
+Q: Did it only apply to tweets about Bidens fracking stance?
+A: No [Type: Boolean]","https://web.archive.org/web/20201101024709/https://blog.twitter.com/en_us/topics/company/2020/2020-election-changes.html
+https://web.archive.org/web/20201101032342/https://blog.twitter.com/en_us/topics/company/2020/2020-election-changes.html",,,,,,,,,,,,,,pending,,
+58,Conflicting Evidence/Cherrypicking,"Russia sent medical aid to the US, in the form of medical equipment to help coronavirus patients.",21-10-2020,Dmitry Peskov,https://web.archive.org/web/20210718091632/https://www.polygraph.info/a/kremlin-touts-covid-19-aid-to-us-even-when-it-ended-in-the-trash-/30909040.html,,"Evidence finds that Russia did send medical equipment to the United States; however, the U.S. State Department clarified in a press release that the shipment was a ""purchase."" Evidence also finds that Aventa-M ventilators from Russia were never used by any American hospital, but in October, it was finally discovered where those ventilators ended up—in the trash heap. Hence, a conflicting/cherry-picking claim. ","Q: What did Russia send to the US during the covid-19 outbreak?
+A: On April 1, a Russian military plane arrived at New York’s JFK Airport loaded with 60 tons of medical equipment, including 45 Russian-produced Aventa-M ventilators meant to help coronavirus patients in intensive care keep breathing. [Type: Abstractive]
+Q: Was this aid, or was this a purchase from the US?
+A: Initially, there was confusion over whether the planeload of equipment was aid, as Russia portrayed it, or if the American side had paid for it. The U.S. State Department clarified this in a press release that referred to the shipment as a “purchase.” [Type: Abstractive]
+Q: What happened to this equipment?
+A: Within about one week, Aventa-M ventilators had been found responsible for fires at two Russian hospitals in Moscow and St. Petersburg; six people were killed. Russian investigators blamed the ventilators’ faulty circuitry.
+
+Ultimately the Aventa-M ventilators from Russia were never used by any American hospital, but in October it was finally discovered where those ventilators ended up – in the trash heap. This week, Christopher Miller, writing for Buzzfeed, revealed that the Federal Emergency Management Agency (FEMA) disposed of the Aventa-M ventilators. [Type: Abstractive]","https://web.archive.org/web/20210718091632/https://www.buzzfeednews.com/article/christopherm51/fema-russia-ventilators-coronavirus?fbclid=IwAR0NDhdqILPthpTHGNnmK_-8yH7CjmyDtbo81pzlHEVVKI9loXMnfI9uVas
+https://web.archive.org/web/20210718091632/https://www.nytimes.com/2020/04/02/world/europe/coronavirus-us-russia-aid.html
+https://web.archive.org/web/20210718091632/https://www.state.gov/u-s-purchase-of-needed-supplies-from-russia/",,,,,,,,,,,,,,pending,,
+60,Conflicting Evidence/Cherrypicking,"UK Employees unable to work in tier 3 areas will get a combination of Job Support Scheme and Universal Credit, which will mean they get 80% of their wages.",21-10-2020,Boris Johnson,https://web.archive.org/web/20210611111116/https://www.bbc.co.uk/news/54633147,,"Rather than the 80% mentioned in the claim, employees will earn 77% according to the sources provided ","Q: What are the terms of the UK Furlough Scheme?
+A: Furlough applies across the UK and covers up to 80% of an employee's salary for the hours they can't work, up to a maximum of £2,500 per month. [Type: Extractive]
+Q: What are the terms of the UK Job Support Scheme?
+A: staff at UK companies told to close would get 67% of their wages from the government under the expanded Job Support Scheme. [Type: Extractive]
+Q: When does the UK Job Support Scheme end?
+A: The Government has announced that this scheme will run for six months through to 30th April 2021. [Type: Extractive]
+Q: Is the claim regarding the new UK Job Support Scheme?
+A: Yes [Type: Boolean]
+Q: What is an example of how the UK Job Support Scheme works?
+A: The Government example is:
+
+Beth normally works 5 days a week and earns £350 a week. Her Company is suffering with reduced sales due to Coronavirus. Rather than making Beth redundant, the company puts Beth on the Job Support Scheme, working 2 days a week (40% of her usual hours).
+Her employer pays Beth £140 for the days she works.
+And for the time she is not working (3 days or 60%, worth £210), she will also earn2/3, or £140, bringing her total earnings to £280, 80% of her normal wage.
+The Government will give a grant worth £70 (1/3 of hours not worked, equivalent to 20% of her normal wages) to Beth’s employer to support them in keeping Beth’s job. [Type: Extractive]
+Q: What are the requirements for making a claim?
+A: In order to make the claim, the employee must work at least 33% of their usual hours for the job to be seen as ‘viable’ and therefore eligible under this scheme. The Government will then pay a third of the hours not worked (up to a cap), with the employer also contributing a third. The remaining unpaid third is effectively the employee’s contribution to the scheme. This means that an employee earns 77% of their normal wage where the Government contribution has not been capped. [Type: Extractive]
+Q: Is the UK Job Support Scheme as generous as the furlough scheme?
+A: This scheme is by no means as generous as the previous ‘furlough’ scheme and until further guidance is announced it is unclear whether it will be of any tangible benefit to company directors (who may typically be paid a modest PAYE salary, at the National Insurance earnings threshold). [Type: Extractive]","Metadata
+https://www.bbc.co.uk/news/uk-politics-54492574
+https://www.bbc.com/news/explainers-52135342
+https://www.englandandcompany.co.uk/briefing-15-15th-october/",,,,,,,,,,,,,,pending,,
+73,Conflicting Evidence/Cherrypicking,Chinese Diplomats Assault Taiwan Counterparts in Fiji,19-10-2020,,https://web.archive.org/web/20210304000957/https://www.polygraph.info/a/did-chinese-diplomats-assault-taiwan-counterparts-in-fiji-/30905265.html,,It seems both attacked each other based on the QA pairs.,"Q: Was there an altercation between Chinese and Taiwanese diplomats
+A: Yes [Type: Boolean]
+A: Yes [Type: Boolean]
+Q: Was the assault done only by the Chinese on the Taiwanese
+A: They both attacked themselves according to the reports [Type: Abstractive]
+A: They both attacked each other according to the reports [Type: Abstractive]
+Q: Who was blamed for the altercation overall?
+A: - Taiwan accused the Chinese officials, 
+- Chinese foreign ministry spokesman Zhao Lijian said Taiwan was attempting to cover up its misdeeds by blaming others [Type: Extractive]","https://web.archive.org/web/20201129014717/https://apnews.com/article/international-news-china-taiwan-fiji-taipei-51b64b361844fee75db0d1922c2480e5
+https://web.archive.org/web/20210302115404/https://www.theguardian.com/world/2020/oct/19/taiwan-official-in-hospital-after-alleged-violent-attack-by-chinese-diplomats-in-fiji",,,,,,,,,,,,,,pending,,
+115,Conflicting Evidence/Cherrypicking,More people who wear masks become sick with COVID-19 compared to non-mask wearers,2020-12-10,Jordan Davidson,https://web.archive.org/web/20210712155847/https://healthfeedback.org/claimreview/mask-use-does-not-lead-to-a-higher-risk-of-covid-19-as-viral-social-media-posts-claim/,https://thefederalist.com/2020/10/12/cdc-study-finds-overwhelming-majority-of-people-getting-coronavirus-wore-masks/,The claim is cherry picking as only 11 people in the test never wore a mask and as there were 314 participants it is likely that there would be more than 11 people to contract covid. The test would need to be a 50/50 split to give the claim support.,"Q: In the study, which prompted the claim that more people who wear masks become infected with the COVID-19 virus than people who don't, how many participants were there?
+A: There were 314 participants in the study. 154 had tested positive for COVID-19 (case-patients), while 160 had tested negative for COVID-19 (control participants). [Type: Abstractive]
+Q: How many people in the survey reported to have never used a mask?
+A: 11 People reported never wearing a mask. [Type: Abstractive]
+Q: How many people in the survey reported to have aways used a mask?
+A: 216 People reported always wearing a mask. [Type: Abstractive]",https://web.archive.org/web/20210712155847im_/https://healthfeedback.org/wp-content/uploads/2020/10/fisher-et-al_cdc-_table-1.png,,,,,,,,,,,,,,pending,,
+143,Conflicting Evidence/Cherrypicking,"New Zealand spends less on pensions than most wealthy countries, spending 4.4 per cent of GDP",2020-08-10,Winston Peters,https://web.archive.org/web/20210512064309/https://www.aap.com.au/does-nz-spend-less-on-pensions-than-most-wealthy-countries/,https://www.youtube.com/watch?v=mgtfLP39FYw&t=2135s&ab_channel=1News,"The country spends 4.8% of GDP on pensions, not 4.4%, but yes it does spend less on pensions than most ""Wealthy Countries"" but not specifically lined out in the evidence source","Q: What does New Zealand currently spend on pensions?
+A: 4.8% of GDP [Type: Abstractive]
+Q: Does New Zealand spend less on pensions than most wealthy countries?
+A: Yes [Type: Boolean]","https://www.oecd-ilibrary.org/sites/d6831cac-en/index.html?itemId=/content/component/d6831cac-en
+https://www.treasury.govt.nz/sites/default/files/2020-05/nzsf-model-changes-befu20.pdf",,,,,,,,,,,,,,pending,,
+148,Conflicting Evidence/Cherrypicking,U.S. President Donald Trump has suspended all travel from China.,2020-07-10,Mike Pence ,https://web.archive.org/web/20210415192738/https://www.bbc.co.uk/news/election-us-2020-54434575,,he suspended entry to foreign nationals who have traveled to China within past two weeks,"Q: What are the current travel rules for travelers coming from China to the U.S.?
+A: Mr Trump issued an order on 31 January which stopped foreign nationals who had been in China in the previous two weeks from entering the US, which came into effect on 2 February. [Type: Extractive]
+A: President Donald Trump signed an order for the U.S. to deny entry to foreign nationals who have traveled to China within the past two weeks. [Type: Extractive]
+Q: Were there exemptions for travelers coming from China to the U.S.?
+A: Yes [Type: Boolean]
+Q: How many people arrived in the US directly from China after President Trump's restrictions?
+A: Flight data analysed by the New York Times shows 40,000 people arrived in the US directly from China in the two months after President Trump's restrictions. [Type: Extractive]","Metadata
+https://www.cnbc.com/2020/01/31/white-house-to-hold-briefing-on-coronavirus-friday-afternoon.html",,,,,,,,,,,,,,pending,,
+259,Conflicting Evidence/Cherrypicking,Govt of India is providing money to bereaved families of COVID-19 - Insurance benefits for Covid-19 deaths can be claimed under the schemes of PMJJBY and PMSBY.,27-9-2020,Funds4-covid19.com,https://web.archive.org/web/20201028204036/https://newsmeter.in/fact-check-claim-that-govt-is-providing-money-to-bereaved-families-of-covid-19-victims-is-false/,https://funds4-covid19.com/,"Although these schemes provide money to bereaved families of COVID-19 patients and insurance benefits for COVID-19 deaths, There are conditions and requirements that need to be met.","Q: Who is covered by PMJJBY insurance benefits?
+A: The PMJJBY is available to people in the age group of 18 to 50 years having a bank account who give their consent to join / enable auto-debit. [Type: Extractive]
+Q: Who is covered by PMSBY scheme?
+A: The Scheme is available to people in the age group 18 to 70 years with a bank account who give their consent to join / enable auto-debit on or before 31st May for the coverage period 1st June to 31st May on an annual renewal basis. The risk coverage under the scheme isRs.2 lakh for accidental death and full disability and Rs. 1 lakh for partial disability. [Type: Extractive]
+Q: is the government providing money to bereaved families of COVID-19 victims under the schemes of PMJJBY and PMSBY
+A: While it is true that the PMJJBY scheme is applicable to COVID-19 deaths, there are some conditions with respect to the eligibility and claim process [Type: Extractive]","https://factly.in/covid-19-related-deaths-are-covered-under-pmjjby-but-not-under-pmsby/
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://financialservices.gov.in/insurance-divisions/Government-Sponsored-Socially-Oriented-Insurance-Schemes/Pradhan-Mantri-Jeevan-Jyoti-Bima-Yojana(PMJJBY)&ved=2ahUKEwir-eOGyYbsAhWz63MBHVTeAt4QFjAAegQIAhAB&usg=AOvVaw21_NYaXzL4O0tSbvpUb670
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://financialservices.gov.in/insurance-divisions/Government-Sponsored-Socially-Oriented-Insurance-Schemes/Pradhan-Mantri-Suraksha-Bima-Yojana(PMSBY)&ved=2ahUKEwi1wreYyYbsAhUg73MBHTSvCgYQFjAAegQIARAB&usg=AOvVaw2xKqIrMbjV_t1LioSWi1GZ",,,,,,,,,,,,,,pending,,
+269,Conflicting Evidence/Cherrypicking,"Sunil Gavaskar said that ""Virat Kohli has only trained against Anushka [Sharma]'s balls during the lockdown""",25-9-2020,News18,https://web.archive.org/web/20210501172710/https://www.altnews.in/virat-kohli-anushka-sharma-sunil-gavaskar-ipl-controversy-distasteful-sexist-remark-misquoted/,,According to the sources provided Virat only trained with Anushka because of the lock down ,"Q: What did Sunil Gavaskar say?
+A: He [Kohli] didn’t get a chance to undertake the necessary practice. He knows that the more he practices, he’ll improve. When the lockdown happened, he only practised against Anuskha’s bowling, we have seen the video, but nothing is going to come of that [Type: Abstractive]
+A: (Virat Kohli) didn’t get a chance to undertake the necessary practice. When the lockdown happened, he only practised against Anushka [Sharma]'s bowling, [Type: Abstractive]
+Q: Why did he (Sunil Gavaskar) make this remark about  Virat Kohli only training against Anushka Sharma's bowling during lockdown?
+A: Gavaskar was referring to a video clip that went viral after it was posted on a Kohli fan page. In the video, Kohli can be seen bowling to Anushka before taking to the stumps. The video then shows Anushka bowling to him. [Type: Extractive]
+Q: What does the claim mean?
+A: Anushka Sharma, India captain Virat Kohli's wife, has criticised Sunil Gavaskar for his ""distasteful"" commentary on Thursday and ""accusing a wife for her husband's game"". [Type: Abstractive]
+Q: Was he being mis-quoted?
+A: Yes [Type: Boolean]","https://web.archive.org/web/20201117063920/https://www.espncricinfo.com/story/_/id/29967286/virat-kohli-wife-slams-sunil-gavaskar-distasteful-commentary
+https://web.archive.org/web/20201120034404/https://www.youtube.com/watch?v=etdAOkiKvBI&feature=youtu.be
+https://web.archive.org/web/20210501172710/https://www.indiatoday.in/sports/ipl-2020/story/sunil-gavaskar-clarifies-comments-on-virat-kohli-anushka-sharma-during-ipl-2020-match-6-1725431-2020-09-25
+https://web.archive.org/web/20210621225218/https://indianexpress.com/article/sports/ipl/sunil-gavaskar-creates-controversy-with-comment-on-virat-kohli-and-anushka-sharma-6610086/",,,,,,,,,,,,,,pending,,
+288,Conflicting Evidence/Cherrypicking,Black Lives Matter wants to destroy the nuclear family.,21-9-2020,Charlie Kirk,https://web.archive.org/web/20210719163636/https://misbar.com/en/factcheck/2020/09/26/blm-wasn%E2%80%99t-trying-to-destroy-the-nuclear-family,,It is not confirmed if they are trying to destroy or are just offering an alternative.,"Q: What does the Black Lives Matter believe of the nuclear family
+A: We disrupt the Western-prescribed nuclear family structure requirement by supporting each other as extended families and “villages” that collectively care for one another, especially our children, to the degree that mothers, parents, and children are comfortable. [Type: Extractive]",https://web.archive.org/web/20200408020723/https:/blacklivesmatter.com/what-we-believe/,,,,,,,,,,,,,,pending,,
+303,Conflicting Evidence/Cherrypicking,There is a double standard in how Senate Republicans handled the confirmations for Obama's and Trump's high court picks.,19-9-2020,Phyllis Leslie Dichter Forbes,https://web.archive.org/web/20210615044526/https://www.usatoday.com/story/news/factcheck/2020/10/20/fact-check-gop-senators-blocked-nomination-merrick-garland-2016/5916555002/,https://www.facebook.com/phyllis.dichterforbes/posts/3361745183861309,"There was a time difference in when Obama and Trump picked their high court nominee - however although Trump only had 100 days left in office - his nomination was approved. Whilst , Obama had 10 months and his high court nominee was blocked due to how close it was to the 2016 presidential elections. Trumps nominee was confirmed only 8 days before the election, Whilst Obama's was 1 month after he picked his nominee. ","Q: When did Trump pick his high court nominee?
+A: Trump had over 100 days left in office when he nominated Amy Coney Barrett [Type: Abstractive]
+Q: Was his nomination confirmed?
+A: Yes [Type: Boolean]
+A: No [Type: Boolean]
+Q: When did Obama  pick his high court nominee?
+A: Obama had 10 months left in his term when he announced Merrick Garland as his Supreme Court nominee [Type: Abstractive]","https://web.archive.org/web/20210615044526/https://www.usatoday.com/story/news/2016/03/16/gop-senators-vow-not-consider-garland-fill-supreme-court-vacancy/81856428/
+https://web.archive.org/web/20210615044526/https://www.usatoday.com/story/news/politics/2020/10/15/amy-coney-barrett-senators-hear-experts-character-witnesses/3654473001/
+https://web.archive.org/web/20211021070000/https://www.usatoday.com/story/news/politics/2020/10/15/amy-coney-barrett-senators-hear-experts-character-witnesses/3654473001/",,,,,,,,,,,,,,pending,,
+306,Conflicting Evidence/Cherrypicking,Brucellosis is caused by a new virus from China.,19-9-2020,The Tatva India,https://web.archive.org/web/20210421221857/https://fit.thequint.com/fit-webqoof/brucellosis-bacterial-disease-fact-check-not-new-virus-from-china-covid19,https://images.thequint.com/thequint-fit/2020-09/d57adc03-7dd4-4784-93a6-bec1f146f91f/tatva_screenshot.PNG?auto=format%2Ccompress&format=webp&w=768&dpr=1.0,"While spreading of the virus did occur in China, the virus itself is not new and it didn't originate there.","Q: What is Brucellosis?
+A: According to the World Health Organisation (WHO), Brucellosis is a zoonotic disease caused by bacteria of the Brucella group. It is a disease of animals, mostly domesticated livestock, which spreads to humans when they are in direct contact with the infected animals or consumes untreated meat or dairy. [Type: Abstractive]
+Q: is this disease new?
+A: A study conducted by the Department of Microbiology, Belgaum tells us that the disease in itself is over 100 years old and has been a significant and increasing veterinary and public health problem in India. The reason for this widespread problem in India is the living conditions in rural India and their proximity to the domestic/wild animals. [Type: Abstractive]
+Q: What has caused the recent outbreak?
+A: The Brucellosis outbreak was caused by a leak at a biopharmaceutical company last year. The leak took place when the company was producing Brucella vaccines for animal use. The factory, reportedly, used expired disinfectants and sanitisers - meaning not all bacteria were eradicated in the waste gas. The contaminated waste gas formed aerosols that contained the bacteria and got carried into the city by the wind.
+
+According to CNN, the Health Commission of Lanzhou, the capital city of Gansu province, confirmed that 3,245 people had contracted the disease. Another 1,401 people have tested as preliminarily positive, though there have been no fatalities reported. [Type: Abstractive]","https://web.archive.org/web/20210506185014mp_/http://www.who.int/csr/resources/publications/Brucellosis.pdf
+https://web.archive.org/web/20210518023545mp_/https://www.ias.ac.in/public/Volumes/jbsc/033/04/0539-0547.pdf",,,,,,,,,,,,,,pending,,
+324,Conflicting Evidence/Cherrypicking,US Miami-Dade County Mayor Carlos Giminez kept his taxpayer-funded Mercedes-Benz after slashing $400 million in government jobs and spending.,17-9-2020,Debbie Mucarsel-Powell,https://web.archive.org/web/20210310031315/https://www.politifact.com/factchecks/2020/sep/30/debbie-mucarsel-powell/florida-congressional-race-carlos-gimenezs-salary-/,https://www.debbiemucarselpowell.com/media-center/,"Q&A 3 state that he never had the car allowance when mayor, but when commissioner.","Q: When did US Miami-Dade County Mayor Carlos Giminez
+A: J.C. Planas, an attorney for the Gimenez campaign and a former state legislator, told PolitiFact in a previous fact-check on June 20, 2011 that Gimenez was entitled to the same car allowances as all the commissioners. For the last year and a half, Gimenez drove a Mercedes-Benz ML and prior to that a Mercedes-Benz E320...Their salary is their benefits -- one of which is their car allowance.
+The fact-checking agency also stated that:  Car allowances -- or the use of city-owned cars -- is one piece of an official's compensation package [Type: Extractive]
+Q: What has been published or verified in other media reports or documentation?
+A: No answer could be found. [Type: Unanswerable]
+Q: When did Gimenez drive a Mercedes
+A: WHen he was a county commissioner, he has car allowance. He approved the cut of 400$ as county comssision official, not as mayor [Type: Abstractive]
+Q: Does Gimenex have a car allowance currently?
+A: No [Type: Boolean]","https://web.archive.org/web/20210310031315/https://www.politifact.com/
+https://www.politifact.com/factchecks/2011/jun/20/accountability-project/miami-mayors-race-third-party-group-tries-tie-carl/",,,,,,,,,,,,,,pending,,
+350,Conflicting Evidence/Cherrypicking,The rate of abortions under Democratic presidential administrations has actually fallen more precipitously.,14-9-2020,,https://web.archive.org/web/20210703153319/https://www.politifact.com/factchecks/2020/sep/25/facebook-posts/graph-us-abortion-rate-during-different-presidents/,https://web.archive.org/web/20210703153319/https://www.politifact.com/personalities/facebook-posts/,"While the QA pairs do support lower levels of abortion during Democratic administrations , they also state there were fewer pregnancies. ","Q: How is data on abortion collected?
+A: Since 1969, the CDC has attempted to collected nationwide data to document the number of legal abortions, the abortion ratio (abortions versus live births), and the abortion rate (number of abortions per 1,000 women ages 15-44). 
+
+But the CDC data isn’t complete because not all abortions are counted.  
+
+The latest CDC abortion report, from 2016, used data from health agencies of 48 reporting areas (New York City and 47 states). But it did not include California, the District of Columbia, Maryland and New Hampshire — about 14% of the country’s population. [Type: Abstractive]
+Q: Has the abortion rate decreased in recent years?
+A: In 2017, the organization reported that the U.S. abortion rate had decreased to record low levels, dropping to 13.5 abortions per 1,000 women aged 15–44, the lowest rate recorded since abortion was legalized in 1973. [Type: Abstractive]
+Q: Was the decline greater in a democratic president?
+A: Yes [Type: Boolean]
+Q: What factors influence abortion incidence?
+A: ""Between 2011 and 2017, the abortion decline appears to be driven by fewer people becoming pregnant in the first place, as both abortions and births declined. If abortion restrictions were the main driver across the board, we’d expect the birth rate to increase,"" Nash said. ""There are a lot of potential factors at play, including increased access to affordable contraception (due to the Affordable Care Act among other policies that make it easier to afford contraception), new methods of contraception, and changing pregnancy desires and attitudes.""
+""I think it is an oversimplification to say there is an association between the abortion rate and the political party occupying the White House,"" said Dr. Daniel Grossman, a professor of obstetrics, gynecology and reproductive sciences at the University of California, San Francisco. [Type: Abstractive]","https://web.archive.org/web/20210703153319/https://www.guttmacher.org/sites/default/files/report_pdf/abortion-incidence-service-availability-us-2017.pdf
+https://web.archive.org/web/20210706031007/https://www.cdc.gov/mmwr/volumes/65/ss/ss6512a1.htm
+https://web.archive.org/web/20210706111714/https://www.guttmacher.org/sites/default/files/report_pdf/abortion-incidence-service-availability-us-2017.pdf",,,,,,,,,,,,,,pending,,
+353,Conflicting Evidence/Cherrypicking,The UK public won’t be able to claim compensation if unlicensed vaccines damage our health.,13-9-2020,Rachel Elnaugh,https://web.archive.org/web/20210616041309/https://fullfact.org/online/government-consultation-covid-vaccine-unlicensed/,https://web.archive.org/web/20210202163413/https://www.facebook.com/permalink.php?story_fbid=3227585677277934&id=100000796017623,"The evidence presented to support this claim appears to be contradictory, therefore I have judged it as conflicting evidence.  ","Q: Who has civil liability for unlicensed vaccines in the UK?
+A: Key actors in the medicines supply chain cannot generally be sued in the civil courts for the consequences resulting from the use of an unlicensed product, or a new use of a licensed product, that a national licensing authority is recommending in order to deal with certain specific health threats. [Type: Extractive]
+Q: Can the public claim compensation for vaccine damage to health?
+A: If a product does not meet the standards set by the Part 1 of the CPA, manufacturers and marketing authorisation holders are not protected from legal action. A product is defective, for the purposes of the CPA, “…if the safety of the product is not such as persons generally are entitled to expect…”, taking all the circumstances into account. [Type: Extractive]",https://web.archive.org/web/20210607133928/https://www.gov.uk/government/consultations/distributing-vaccines-and-treatments-for-covid-19-and-flu/consultation-document-changes-to-human-medicine-regulations-to-support-the-rollout-of-covid-19-vaccines#civil-liability-and-immunity,,,,,,,,,,,,,,pending,,
+360,Conflicting Evidence/Cherrypicking,"These unlicensed vaccines will be administered by non-medical staff, such as your employer in the UK.",13-9-2020,Rachel Elnaugh,https://web.archive.org/web/20210616041309/https://fullfact.org/online/government-consultation-covid-vaccine-unlicensed/,https://web.archive.org/web/20210202163413/https://www.facebook.com/permalink.php?story_fbid=3227585677277934&id=100000796017623,"It looks as though measures are being taken to allow additional healthcare professionals in the occupational health workforce to be able to administer vaccines, and a protocol would provide the definition for the training and competence requirements of vaccinators (non-healthcare professionals). However, Q5 finds that this does not include your employer. Q2 also finds that temporary authorization of the supply of an unlicensed vaccine could be given by the UK’s licensing authority under regulation 174 of the Human Medicines Regulations.","Q: What vaccines does the claim refer to?
+A: COVID-19 vaccines [Type: Extractive]
+Q: Were Covid vaccines unlicensed in 2020
+A: Until the end of December 2020, EU legislation requires biotechnological medicines which include COVID-19 vaccines to be authorised via the European Medicines Agency, and a marketing authorisation granted by them would automatically be valid in the UK. [Type: Extractive]
+Q: were Covid vaccines allowed to be administered by non-medical staff, such as employers in the UK?
+A: someone other than a registered healthcare professional may actually be administering the unlicensed vaccines [Type: Abstractive]
+Q: Will anyone other than a registered healthcare professional be trained to administer a vaccine first?
+A: Yes [Type: Boolean]
+Q: Will employers be allowed to administer a covid vaccine?
+A: No [Type: Boolean]
+Q: Were Covid vaccines unlicensed in 2020?
+A: Until the end of December 2020, EU legislation requires biotechnological medicines which include COVID-19 vaccines to be authorised via the European Medicines Agency, and a marketing authorisation granted by them would automatically be valid in the UK. [Type: Extractive]
+A: A temporary authorisation of the supply of an unlicensed vaccine could be given by the UK’s licensing authority under regulation 174 of the Human Medicines Regulations (see below). A COVID-19 vaccine would only be authorised in this way if the UK’s licensing authority was satisfied that there is sufficient evidence to demonstrate the safety, quality and efficacy of the vaccine. [Type: Extractive]
+Q: Are Covid vaccines allowed to be administered by non-medical staff, such as employers in the UK?
+A: Currently, the HMRs require that only ‘appropriate practitioners’ administer vaccines, as they are a parenterally administered (for example by injection) prescription-only medicine. Appropriate practitioners are defined under regulation 214 as doctors and other qualified prescribers. [Type: Extractive]
+A: An expanded workforce is required to ensure that the COVID-19 vaccine can be safely deployed widely as soon as it should become available, given the capacity constraints of the current workforce that can administer vaccines.
+We are consulting on making the following 3 amendments to the HMRs to increase the number of persons able to safely deliver licensed and potentially unlicensed vaccinations for COVID-19, in particular to ensure that the COVID-19 vaccine can be rolled out as soon as it becomes available. [Type: Extractive]
+A: Expand the scope of patient group directions (PGDs) to allow the administration of any medicine, including COVID-19 vaccines, the supply of which has been temporarily authorised under regulation 174 of the HMRs. PGDs are usually used to expand the professionals able to deliver prescription-only medicines to individuals. They are used, for example, as part of the annual national influenza immunisation programme by pharmacists working in community pharmacies.
+allow those who are registered healthcare professionals who do not normally vaccinate, and people who are not registered healthcare professionals, to safely administer a licensed or temporarily authorised COVID-19 or influenza vaccine
+Expand the workforce legally allowed to administer vaccines under NHS and local authority occupational health schemes, so that additional healthcare professionals in the occupational health workforce will be able to administer vaccines. [Type: Extractive]","https://web.archive.org/web/20210607133928/https://www.gov.uk/government/consultations/distributing-vaccines-and-treatments-for-covid-19-and-flu/consultation-document-changes-to-human-medicine-regulations-to-support-the-rollout-of-covid-19-vaccines
+https://web.archive.org/web/20210607133928/https://www.gov.uk/government/consultations/distributing-vaccines-and-treatments-for-covid-19-and-flu/consultation-document-changes-to-human-medicine-regulations-to-support-the-rollout-of-covid-19-vaccines#proposed-expansion-to-the-workforce-eligible-to-administer-vaccinations
+https://www.gov.uk/government/consultations/distributing-vaccines-and-treatments-for-covid-19-and-flu/consultation-document-changes-to-human-medicine-regulations-to-support-the-rollout-of-covid-19-vaccines",,,,,,,,,,,,,,pending,,
+366,Conflicting Evidence/Cherrypicking,Biden called law enforcement the enemy.,2020-12-09,Donald Trump,https://web.archive.org/web/20210426170819/https://www.factcheck.org/2020/09/trump-spins-quotes-by-about-biden/,https://web.archive.org/web/20210501012452/https://www.rev.com/blog/transcripts/donald-trump-minden-nevada-rally-speech-transcript-september-12,"The claim Biden made was taken out of context, he was saying that IF law enforcement use equipment that is commonly seen in warzones, there will be a stronger divide and the police become the enemy","Q: in What context did Biden say the law enforcement ""the enemy""?
+A: Biden said that local law enforcement using “an up-armored Humvee” in a neighborhood looks “like the military invading,” adding, “They become the enemy.” [Type: Abstractive]
+Q: What does Biden say about the police?
+A: Biden campaign spokesperson Rosemary Boeglin told us in a statement: “For years, Biden has opposed providing police with equipment that only belongs in war zones — and was remarking that doing so can create and deepen divides between communities and the officers who serve them. That’s why Biden has long advocated for community policing strategies that strengthen relationships and foster trust.” [Type: Abstractive]
+Q: Was Joe Biden's comment on law enforcement taken out of context?
+A: Yes [Type: Boolean]","Metadata
+https://web.archive.org/web/20200916083838/https://www.youtube.com/watch?v=V4CLoiA3vfQ&feature=youtu.be&t=1366
+https://web.archive.org/web/20210426170819/https://www.youtube.com/watch?v=V4CLoiA3vfQ&feature=youtu.be&t=1366",,,,,,,,,,,,,,pending,,
+370,Conflicting Evidence/Cherrypicking,Government of India has imposed taxes on all school books,2020-11-09,,https://web.archive.org/web/20210122214823/http://newsmobile.in/articles/2020/09/26/fact-check-centre-did-not-impose-tax-on-school-books-heres-the-truth/,,The second answer shows that some exercise books are taxed but the first answer shows that printed books are not taxed so the claim is cherrypicking as it says all books.,"Q: Does the Indian tax school books?
+A: 119. 4901 Printed books, including Braille books Nil tax [Type: Extractive]
+A: 123. 4820 Exercise book, graph book, & laboratory note book
+and notebooks
+6% [Type: Extractive]
+A: 154. 4820 Registers, account books, order books, receipt
+books, letter pads, memorandum pads, diaries and
+similar articles, blotting-pads, binders (loose-leaf
+or other), folders, file covers, manifold business
+forms, interleaved carbon sets and other articles of
+stationary, of paper or paperboard; and book
+covers, of paper or paperboard [other than note
+books and exercise books]
+9% [Type: Extractive]",https://gstcouncil.gov.in/sites/default/files/ready-reckoner/CGST%20rates%20for%20Goods%20under%20different%20Notifications%20%20as%20amended%20from%20time%20to%20time.pdf,,,,,,,,,,,,,,pending,,
+389,Conflicting Evidence/Cherrypicking,The cardinal and unforgivable sin of a French magazine Charlie Hebdo in insulting the holy face of the Prophet once again revealed the hatred and hostility of the political and cultural institutions of the Western world against Islam and the Muslim community.,2020-08-09,Ayatollah Seyyed Ali Khamenei,https://web.archive.org/web/20210117095840/https://www.polygraph.info/a/fact-check-iran-charlie-hebdo/30833696.html,https://web.archive.org/web/20210422030600/https://en.mehrnews.com/news/163256/Charlie-Hebdo-s-insult-revealed-West-s-hostility-to-Islam,"The magazine was simply mocking a religious figure, exercising its freedom of speech like they have done since 1970","Q: How did the White House spokesman Jay Carney comment on the publications of these cartoons?
+A: Well, we are aware that a French magazine published cartoons featuring a figure resembling the Prophet Muhammad, and obviously, we have questions about the judgment of publishing something like this.  We know that these images will be deeply offensive to many and have the potential to be inflammatory.  But we’ve spoken repeatedly about the importance of upholding the freedom of expression that is enshrined in our Constitution.
+ 
+In other words, we don’t question the right of something like this to be published; we just question the judgment behind the decision to publish it.  And I think that that’s our view about the video that was produced in this country and has caused so much offense in the Muslim world. [Type: Extractive]
+Q: How did France’s then President Jacques Chirac comment on the publications of these cartoons?
+A: “Anything that can hurt the convictions of someone else, in particular religious convictions, should be avoided. Freedom of expression should be exercised in a spirit of responsibility.” [Type: Extractive]
+Q: Did Charlie Hebdo publish other cartoons mocking  other non-Islamic figures ?
+A: Yes [Type: Boolean]","https://obamawhitehouse.archives.gov/the-press-office/2012/09/19/press-briefing-press-secretary-jay-carney-91912
+https://time.com/3657256/charlie-hebdo-paris-attack/",,,,,,,,,,,,,,pending,,
+404,Conflicting Evidence/Cherrypicking,"Indian Railways has been completely privatized, and as a result, scores of people working in the Railways would lose their jobs.",2020-06-09,@ColTekpal,https://web.archive.org/web/20210720091240/https://newsmobile.in/articles/2020/09/07/fact-check-indian-railways-is-not-being-fully-privatized-heres-the-truth/,https://web.archive.org/web/20210720091240/https://twitter.com/ColTekpal/status/1302630595177005056,"Q.1 and 2 find that only parts of the Indian railway would be privatized. However, no jobs are to be lost, but profiles may change.","Q: Has the government-owned Indian Railways been fully privatised?
+A: There are certain areas where public-private partnership is being worked upon but the control will still vest with @RailMinIndia. 
+No jobs are being lost. [Type: Extractive]
+Q: Will there be Job losses due to the partial privatization?
+A: No job cuts, but profiles may change says Indian Railways. [Type: Extractive]
+Q: What kind of privatisation is taking place?
+A: Another article from March 2020 mentioned that parts of Railways would be privatized, which includes 151 modern trains or rakes to be introduced and 109 pairs of routes to be planned out for private train operations by 2022. [Type: Abstractive]","https://web.archive.org/web/20200909075240im_/https://pbs.twimg.com/profile_banners/1207634475254865921/1598874762/1500x500
+https://web.archive.org/web/20211206134459/https://www.livemint.com/news/india/no-job-cuts-but-profiles-may-change-says-indian-railways-11593790324156.html",,,,,,,,,,,,,,pending,,
+427,Conflicting Evidence/Cherrypicking,U.S. citizens should show up at polling places on Election Day and cast an in-person ballot if poll workers can’t confirm that their mail-in ballot was received.,2020-02-09,Donald Trump ,https://web.archive.org/web/20210616101816/https://www.factcheck.org/2020/09/trumps-bad-advice-for-mail-in-voters/,https://www.youtube.com/watch?v=wqtuLW9LdDw&t=103s,From the QA pairs it seems someone can vote in person   if their previous ballot is invalid however the other QA pair says only 19 states can track ballots so it is unsure if workers can track to see if a vote has been logged and anyone caught voting twice is liable to prosecution.,"Q: Are absentee/mail-in ballots in US elections tracked?
+A: Yes [Type: Boolean]
+Q: Is it legal to place an absentee/mail-in vote and then vote at a polling station in the US?
+A: No [Type: Boolean]","https://uscode.house.gov/view.xhtml?req=(title:52%20section:10307%20edition:prelim)
+https://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-voting.aspx",,,,,,,,,,,,,,pending,,
+448,Conflicting Evidence/Cherrypicking,"Kyle Rittenhouse failed to appear at his court hearing in Lake County, Illinois, on 28th August 2020 and was given an extra month to comply.",2020-01-09,Emilie Marie Blake,https://web.archive.org/web/20210719212004/https://leadstories.com/hoax-alert/2020/09/fact-check-kyle-rittenhouse-did-not-need-to-be-at-initial-hearing.html,https://www.facebook.com/groups/LeimertParkBeat/permalink/10157273908716691/,He did not appear at the hearing but that was because he was looking for an attorney so the claim is cherry picking.,"Q: Did Kyle Rittenhouse appear for his first hearing on 28 August 2020?
+A: No [Type: Boolean]
+Q: Was Rittehouse's initial hearing delayed by the judge?
+A: Yes [Type: Boolean]",https://www.fox32chicago.com/news/extradition-hearing-for-kyle-rittenhouse-delayed-attorney-says-teen-acted-in-self-defense,,,,,,,,,,,,,,pending,,
+480,Conflicting Evidence/Cherrypicking,"Donald Trump said: ""Biden also vowed to oppose school choice and close down charter schools, ripping away the ladder of opportunity for Black and Hispanic children.""",27-8-2020,Donald Trump,https://web.archive.org/web/20210227073357/https://www.politifact.com/article/2020/aug/28/fact-checking-donald-trumps-2020-rnc-speech/,,The QA Pairs dont confirm he wanted to shut them down but do imply more oversight into there funding.,"Q: What is 'school choice'
+A: School choice allows public education funds to follow students to the schools or services that best fit their needs —whether that’s to a public school, private school, charter school, home school or any other learning environment families choose [Type: Extractive]
+Q: What are U.S charter schools?
+A: Charter schools in the United States are primary or secondary education institutions that are funded through taxation and operated by private organizations, rather than local school districts. They do not charge tuition, as they are funded with public tax dollars [Type: Extractive]
+Q: Did Joe Biden oppose school choice?
+A: he supports good charter schools and allowing students to pick among public schools. Those also qualify as school choice options. [Type: Abstractive]
+Q: Did Joe Biden want to close down charter schools?
+A: The Biden administration did controversially push for more oversight when it comes to charter school funding. [Type: Extractive]","https://en.wikipedia.org/wiki/Charter_schools_in_the_United_States#:~:text=Charter%20schools%20in%20the%20United%20States%20are%20primary%20or%20secondary,funded%20with%20public%20tax%20dollars.
+https://web.archive.org/web/20210118102704/https://www.edchoice.org/school-choice/types-of-school-choice/
+https://www.edchoice.org/school-choice/what-is-school-choice/#:~:text=In%20a%20nutshell%3A%20School%20choice,other%20learning%20environment%20families%20choose.
+https://www.edweek.org/policy-politics/federal-funding-and-charter-school-closures-what-the-latest-government-data-show/2022/10",,,,,,,,,,,,,,pending,,
+482,Conflicting Evidence/Cherrypicking,"Donald trump said: ""Joe Biden recently raised his hand on the debate stage and promised he was going to give it away, your health care dollars to illegal immigrants, which is going to bring massive number of immigrants into our country.""",27-8-2020,Donald Trump,https://web.archive.org/web/20210227073357/https://www.politifact.com/article/2020/aug/28/fact-checking-donald-trumps-2020-rnc-speech/,,"He will give health care to undocumented immigrants, but expanding coverage for undocumented immigrants could save costs over all.","Q: Why is Biden giving healthcare to undocumented immigrants?
+A: When asked by Guthrie if he would provide federally supported health coverage to undocumented immigrants, Biden quickly corrected her. ""You cannot let people who are sick, no matter where they come from, no matter what their status, go uncovered. You can’t do that. It’s just going to be taken care of. Period. You have to. It’s the humane thing to do,” he insisted. [Type: Extractive]
+Q: Is undocumented immigrant healthcare expensive?
+A: Equitable coverage for undocumented immigrants makes financial sense. The federal government already covers urgent care, which is very expensive. The Emergency Medical Treatment and Active Labor Act (EMTALA) requires hospitals to stabilize all low-income individuals with life-threatening conditions, and Emergency Medicaid covers emergency services for immigrants who would otherwise qualify for Medicaid but for their immigration status. Thus, undocumented patients often receive care much later in the course of diseases, as documented in a study of New York City public hospitals. Often, individuals return repeatedly to emergency departments for the same condition. By delaying needed care, undocumented persons face serious, more costly, health conditions in the long term. Shifting toward prevention and early diagnosis and treatment would avoid or reduce costs over time.
+
+Thus, expanding coverage for undocumented immigrants could save costs over all. [Type: Extractive]","https://jamanetwork.com/channels/health-forum/fullarticle/2759639
+https://khn.org/morning-breakout/all-democratic-candidates-support-health-care-for-undocumented-immigrants-we-do-ourselves-no-favors-when-millions-cant-access-care/",,,,,,,,,,,,,,pending,,
+496,Conflicting Evidence/Cherrypicking,"Joe Biden is for open borders, sanctuary cities, free lawyers and health care for illegal immigrants.",26-8-2020,Mike Pence,https://web.archive.org/web/20210504031017/https://www.politifact.com/article/2020/aug/27/fact-checking-night-three-2020-rnc/,,A lot of his statements have been either taken out of context or misinterpreted. ,"Q: Did Joe Biden support open borders, sanctuary cities, free lawyers and health care for illegal immigrants in 2020?
+A: This is a mix of misleading and accurate characterizations of Biden's positions. As a single sentence, it is not correct. [Type: Abstractive]
+Q: Did Joe Biden support open borders for illegal immigrants in 2020?
+A: Biden said that if elected, ""there will not be another foot of wall constructed."" But that’s not the same as advocating for ""open borders."" [Type: Extractive]
+A: This is a mix of misleading and accurate characterizations of Biden's positions. As a single sentence, it is not correct. [Type: Abstractive]
+Q: Did Joe Biden support sanctuary cities for illegal immigrants in 2020?
+A: Biden was asked at a Democratic primary debate if immigrants illegally in the country who are arrested by local police should be turned over to immigration officials. ""No,"" Biden answered. While there’s no official definition for sanctuary cities, the term is commonly applied to cities that limit their cooperation with federal immigration authorities. [Type: Extractive]
+Q: Did Joe Biden support free lawyers for illegal immigrants in 2020?
+A: Biden would double the number of immigration judges, court staff, and interpreters working on immigration cases. His plan says humanitarian needs are best met through a network of organizations, including legal non-profits, and that Biden would ""dramatically increase U.S. government resources"" to support migrants waiting on their asylum cases and the organizations helping them. But it doesn’t specify ""free lawyers."" [Type: Extractive]
+A: Biden would double the number of immigration judges, court staff, and interpreters   But it doesn’t specify ""free lawyers."" [Type: Extractive]
+Q: Did Joe Biden support  healthcare access for illegal immigrants in 2020?
+A: Biden supports extending health care access to all immigrants, even if they are illegally in the country. (The health care would not be ""free."") [Type: Extractive]
+Q: Did Joe Biden support  sanctuary cities for immigrants in 2020?
+A: Biden said that if elected, ""there will not be another foot of wall constructed."" But that’s not the same as advocating for ""open borders."" [Type: Extractive]
+Q: Did Joe Biden support free  health care for illegal immigrants in 2020?
+A: A task force comprised of appointees of Biden and Sen. Bernie Sanders, recommended allowing immigrants illegally in the country to buy health insurance, without federal subsidies [Type: Extractive]","https://joebiden.com/immigration/
+https://joebiden.com/wp-content/uploads/2020/08/UNITY-TASK-FORCE-RECOMMENDATIONS.pdf#page=91
+https://web.archive.org/web/20210503122525/https://joebiden.com/wp-content/uploads/2020/08/UNITY-TASK-FORCE-RECOMMENDATIONS.pdf#page=91
+https://www.rev.com/blog/transcripts/joe-biden-interview-transcript-august-6-talks-mental-fitness-healthcare
+https://www.rev.com/blog/transcripts/march-democratic-debate-transcript-joe-biden-bernie-sanders",,,,,,,,,,,,,,pending,,
+9,Not Enough Evidence,"You see the number today? 33.1 GDP. The biggest in the history of our country by almost triple, right? Almost triple. Now it’s very much bigger than any GDP we’ve ever had. You have to go back to the 1950s, and then it’s less than half. This is the greatest number, 33.1 percent.",30-10-2020,Donald Trump,https://web.archive.org/web/20210212055748/https://www.washingtonpost.com/politics/2020/11/02/fact-checking-final-arguments-biden-trump/,,There is only one question and that is unanswerable. There is no evidence about the GDP in 2020 when the claim was made. Therefore there is not enough evidence to refute or support the claim.,"Q: Was 1950's U.S GDP less than half of 2020's GDP of 33.1?
+A: Yes [Type: Boolean]
+Q: What was the USA's GDP in the 1950s?
+A: No answer could be found. [Type: Unanswerable]",https://www.stlouisfed.org/on-the-economy/2017/april/us-manufacturing-really-declining,,,,,,,,,,,,,,pending,,
+15,Not Enough Evidence,"Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in the United States.",29-10-2020,Chase Jennings,https://web.archive.org/web/20210304001822/https://www.polygraph.info/a/fact-check-twitter-trumps-wall-and-the-drop-in-border-crossings/30931153.html,https://twitter.com/spoxdhs/status/1322031666739748864?s=21,"15 miles of new barriers seems unlikely to account for the halving of illegal crossing from 2019 to 2020. Particularly as 2019 is the outlier in the period 2018 to 2020.
+
+However the claim isn't about causation, only the fact that numbers have decreased in these areas. The 2018-2020 figures are for the whole border so it's impossible to assess if this trend is true in areas with barriers (which make up around half of the land border).","Q: Which border is this claim referring to?
+A: The US-Mexico border. [Type: Extractive]
+Q: Did the US-Mexico border have barriers before President Tump took office?
+A: Yes [Type: Boolean]
+A: Yes [Type: Boolean]
+Q: How much of the border has barriers as of October 2020?
+A: Now, according to US Customs and Border Protection (CBP) in its 6 October status report, the southern border has 669 miles of ""primary barrier"" - the first structure people heading from Mexico to the US will encounter - and 65 miles of ""secondary barrier"" - which usually runs behind the primary structure as a further obstacle.
+
+This means that in areas where no barricades existed before, they have built 15 miles of new, primary barrier or ""border wall system"", as it is called by CBP.
+
+??About a further 350 miles of barrier has been built, according to CBP, made up of replacement structures and some new secondary barrier.
+
+More is planned, too, with 378 miles of new and replacement barrier either under construction or in the ""pre-construction phase"". Less than half of this will be in locations where no barriers currently exist, according to CBP. [Type: Extractive]
+Q: How many border encounters were there in 2018-2020?
+A: Fiscal years
+2018 - 521,090
+2019 - 977,509
+2020 - 458,088 [Type: Extractive]
+Q: When did the Covid-19 pandemic emerge?
+A: The novel coronavirus (SARS-CoV-2) that causes COVID-19 first emerged in the Chinese city of Wuhan in 2019 and was declared a pandemic by the World Health Organization (WHO) [Type: Extractive]","Metadata
+https://www.bbc.com/news/world-us-canada-46824649
+https://www.cbp.gov/newsroom/stats/southwest-land-border-encounters
+https://www.nfid.org/infectious-diseases/coronaviruses/
+https://www.wsj.com/articles/the-border-wall-mile-by-mile-11550152535",,,,,,,,,,,,,,pending,,
+26,Not Enough Evidence,Ivermectin is a treatment for coronavirus.,26-10-2020,Pearson Sharp,https://web.archive.org/web/20210703175845/https://healthfeedback.org/claimreview/strong-evidence-lacking-to-support-claim-that-ivermectin-is-a-cure-for-covid-19-there-are-only-limited-clinical-results-at-this-stage-oann/,,Ivermectin is licensed for anti parasitic used but not enough evidence yet exists for treatment against coronavirus. ,"Q: What is ivermectin?
+A: Ivermectin is one of the most important antibiotics discovered. [Type: Extractive]
+Q: Could invermectin be used as a treatment for Covid-19?
+A: The clinical efficacy and utility of ivermectin in SARS CoV-2 infected patients are unpredictable at this stage, as we are dealing with a completely novel virus. We await results of well-designed large scale randomized controlled clinical trials exploring treatment efficacy of ivermectin to treat SARS-CoV-2. [Type: Extractive]","https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7521351/
+https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(19)30490-5/fulltext",,,,,,,,,,,,,,pending,,
+59,Not Enough Evidence,There is a scam involving Santander customers being sent fake bank cards.,21-10-2020,Nigel Howard Berry,https://web.archive.org/web/20210228033931/https://fullfact.org/online/santander-card-scam/,https://www.facebook.com/groups/719779154837578/permalink/1864476120367870/,"Q&A 1 says that Santander was issuing new bank cards but makes no reference to the claim about a scam being linked to fake issued bank cards,  Q&A 2 and 3 give no answer for their questions so needs more evidence overall for the claim points.","Q: Was Santander issuing new debit cards early?
+A: Yes [Type: Boolean]
+Q: Is there any evidence of a scam involving Santader debit cards in Oct 2020?
+A: No answer could be found. [Type: Unanswerable]
+Q: What did Santander say about the claim there's a scam running in their name
+A: No answer could be found. [Type: Unanswerable]",https://twitter.com/santanderukhelp/status/1359776098544988160,,,,,,,,,,,,,,pending,,
+68,Not Enough Evidence,"Joe Biden said 'If Your 8-Year-Old Child Says They Want To Be Transgender, They Have A Right To Transition'.",20-10-2020,On point with with pastor Greg locke,https://web.archive.org/web/20201217035111/https://leadstories.com/hoax-alert/2020/10/biden-did-not-say-if-your-8-year-old-child-wants-to-be-transgender-there-is-no-reason-for-you-to-deny-it.html,,There is not enough evidence to support or refute the claim ,"Q: Who is Pastor Greg Locke?
+A: Pastor Greg Locke is the Founding and Lead Pastor of Global Vision Bible Church in Mount Juliet, Tennessee, just outside Nashville. The social media firebrand is the author of the #1 Bestselling Spiritual Warfare Series and is the host of the top-rated podcast, On Point with Pastor Greg Locke. He has a Bachelor’s Degree in Biblical Studies, a Master’s Degree in Revival History, and is a popular revivalist and speaker in churches and political circles alike. The Lord has blessed him with one of the largest social media platforms in the nation, and Global Vision has the most broad-reaching livestream ministry in the world. [Type: Extractive]
+Q: When or where did Biden say this?
+A: No answer could be found. [Type: Unanswerable]",https://www.amazon.com/REVIVAL-Pastor-Greg-Locke/dp/1735846279,,,,,,,,,,,,,,pending,,
+76,Not Enough Evidence,"Hunter Biden (son of US president Joe Biden)  had 25,000 pics of him torturing and raping children under 10 in China on his laptop.",18-10-2020,,https://web.archive.org/web/20210616174749/https://www.factcheck.org/2020/10/social-media-posts-dredge-up-baseless-child-trafficking-conspiracy-theory/,,Answers do not confirm or deny this.,"Q: What is this claim based on?
+A: Hunter Biden's laptop was subpoena'd by an FBI agent who workd on child pornography. [Type: Abstractive]
+Q: Was there child pornography on the laptop?
+A: “I don’t want to speculate,” said  Sen. Ron Johnson, who nevertheless went on to say, “I’ve heard all kinds of things that I think will probably be revealed over the next few days.” [Type: Extractive]
+A: Sen. Ron Johnson is calling on FBI Director Christopher Wray to confirm or deny details regarding a laptop said to have belonged to Democratic presidential nominee Joe Biden's son Hunter Biden.
+
+Johnson, R-Wis., said in a letter to Wray obtained by Fox News that a whistleblower contacted his committee on September 24, claiming to possess a laptop that Hunter Biden left at his business, and that he had turned it over to the FBI. Johnson noted that staff immediately asked the FBI to confirm certain details in order to validate the claim, but the bureau said they would not confirm or deny any of the information included in their request. [Type: Extractive]","https://twitter.com/atrupar/status/1317849887438966784?s=21
+https://www.foxnews.com/politics/sen-johnson-presses-wray-on-validity-of-hunter-biden-laptop-claim",,,,,,,,,,,,,,pending,,
+142,Not Enough Evidence,"The CDC has said over 98,000 people had non-COVID related deaths because of hospitals that were closed down for non-essential services",2020-08-10,Miller-Meeks,https://web.archive.org/web/20210301202738/https://www.thegazette.com/factchecker/fact-checker-miller-meeks-links-excess-deaths-to-hospital-shutdowns-20201026,,"The claim mentions specific death figures that were not caused by covid but from lack of hospital availability due to shutdowns, Q&A pair 1 does give a number for what the claim refers to but fails to provide a date for its figures so needs more evidence to show a relation to claim.
+Q&A 2 also shows no date for its details.
+Q&A 3 shows no answer,  so overall more data is needed to make them relevant to the claim.","Q: Have 98,000 people had non-COVID related deaths because of hospitals that were closed down for non-essential services?
+A: A July report in the Journal of the American Medical Association found 87,000 excess deaths nationwide from March 1 to April 25, with 45 percent of those, or more than 30,000, not attributed to COVID-19. [Type: Extractive]
+Q: Have the CDC reported on this?
+A: A CDC report posted Tuesday said an estimated 299,028 excess deaths (above the expected baseline) occurred from late January through Oct. 3 in the United States.
+
+About 198,000, or two-thirds, were attributed to COVID-19, the CDC said. This leaves about 100,000 excess deaths during that seven-month period that weren’t believed to be because of COVID-19. [Type: Extractive]
+Q: What does the CDC mean by excess deaths?
+A: No answer could be found. [Type: Unanswerable]","https://web.archive.org/web/20210302101747/https://jamanetwork.com/journals/jama/fullarticle/2768086
+https://www.cdc.gov/mmwr/Novel_Coronavirus_Reports.html",,,,,,,,,,,,,,pending,,
+153,Not Enough Evidence,President Trump and I have a plan to improve healthcare and protect pre-existing conditions for every American.,2020-07-10,Mike Pence,https://web.archive.org/web/20210415192738/https://www.bbc.co.uk/news/election-us-2020-54434575,,There's no evidence of the plan being mentioned ,"Q: What plan is being referred to?
+A: This is not mentioned. [Type: Abstractive]",Metadata,,,,,,,,,,,,,,pending,,
+183,Not Enough Evidence,"Mexico on a ""red alert"" with children being targeted for kidnapping so their organs can be harvested",2020-02-10,Yesenia Rivera,https://web.archive.org/web/20210123212157/https://leadstories.com/hoax-alert/2020/10/fact-check-mexico-is-not-on-red-alert-there-are-no-credible-reports-of-kidnapping-minors-for-the-purpose-of-organ-harvesting.html,https://www.facebook.com/murillorivera/posts/3234239066663316,"It seems that the label refers to non travelling, but says nothing about organs. Therefore the claim is not enough evidence ","Q: What is the source for travel advice for US citizens issued for travel to Mexico?
+A: Mexico travel advisory page by the Travel.state.gov [Type: Abstractive]
+Q: What does the ""red alert"" refer to?
+A: DO NOT TRAVEL [Type: Extractive]
+Q: What was the advice issued by the Mexico travel advisory page at the time of the claim?
+A: No answer could be found. [Type: Unanswerable]",https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html,,,,,,,,,,,,,,pending,,
+186,Not Enough Evidence,A picture of a man with UP Chief Minister Yogi Adityanath shared with a claim that he is the father of rape accused Sandeep Thakur in the Hathras case.,2020-02-10,Sanju Yaduwanshi Sapa,https://web.archive.org/web/20201101071344/https://www.vishvasnews.com/english/politics/fact-check-former-bjym-leaders-picture-viral-with-fake-claim/,https://archive.ph/PqItZ,There is only evidence form fact checking sources no first party reports.,"Q: Who is the man with Yogi Adityanath in the picture?
+A: Many sources identify the man, but these are other fact-checking resources and so are not acceptable in this project. [Type: Abstractive]
+Q: Have other sources investigated this claim?
+A: Yes [Type: Boolean]",https://www.altnews.in/bjp-leader-accused-in-a-different-rape-case-claimed-to-be-father-of-hathras-accused/,,,,,,,,,,,,,,pending,,
+192,Not Enough Evidence,It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,"I don't think identifying the oil prices interrogates the claim. The claim is about whether it makes sense, so this needs a third question.","Q: What was the price of petrol in Nigeria in Oct 2020?
+A: Average price paid by consumers for Automotive Gas Oil (diesel) decreased by -0.99% month-on-month
+and by -3.62% year-on-year to N219.68 in September 2020 from to N221.88 in August 2020. [Type: Extractive]
+Q: What was the price of petrol in Saudi Arabia in Oct 2020?
+A: Gasoline 91’s price was set at 0.67 riyals per liter ($0.18), down 48.9 percent from 1.31 riyals per liter in April 2020
+
+Gasoline 95’s price was set at 0.82 riyals per liter ($0.22), down 44.2 percent from 1.47 riyals per liter in April.
+
+Diesel’s price was set at 0.47 riyals per liter, Kerosene was set at 0.64 riyals per liter, and liquified petroleum gas (LPG) was set at 0.75 riyals per liter. [Type: Extractive]","https://english.alarabiya.net/business/energy/2020/05/11/Saudi-Arabia-s-Aramco-reduces-fuel-prices-in-May-2020
+https://www.nigerianstat.gov.ng/pdfuploads/Automotive_Gas_Oil_(Diesel)_Price_Watch_SEPT_2020.pdf",,,,,,,,,,,,,,pending,,
+206,Not Enough Evidence,There has been a 60% drop in government revenue in Nigeria.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,It seems that there is not enough information to make the claim label.,"Q: What timeframe was the president of Nigeria referring to?
+A: No answer could be found. [Type: Unanswerable]
+Q: Is it possible to prove the claim without knowing the time scale the president was referring to?
+A: No, There is not enough information. 
+No answer could be found. [Type: Abstractive]",https://tradingeconomics.com/nigeria/government-debt-to-gdp,,,,,,,,,,,,,,pending,,
+208,Not Enough Evidence,It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,"All of the evidence presented relates to Nigeria, but there aren't any answers about oil prices in Saudi Arabia.","Q: Why does fuel prices differ across countries?
+A: Fuel prices can be broken down into these major components.
+- fuel oil cost
+- refining cost
+- distribution cost, wholesale and retail
+- taxes, excise and VAT/sales tax [Type: Extractive]
+Q: What is a purchasing power parity index?
+A: Indices of purchasing power parity are used to compare real income levels across countries based on a nation's ability to buy goods and services. [Type: Extractive]
+A: Purchasing	power	parity	exchange	rates,	PPPs,	are	international	multilateral	price	indexes	that	measure,	for	the	various	components	of	GDP,	the	amount	of	local	currency	required	to	purchase	the	same	real	amount	in	that	country	relative	to	a	numeraire,	which	is	typically	the	United	States.	Non-traded	goods	are	typically	cheaper	in	poorer	economies,	so	that	PPPs	are	typically	lower	than	exchange	rates	for	poor	countries,	and	are	more	so	the	poorer	the	country [Type: Extractive]
+Q: What is a producing power index?
+A: Indices of producing power parities are also used to compare real estimates across countries. Producing power parity estimates are used to examine production-related phenomenons—differences in countries' ability to produce (as opposed to consume), goods and services. [Type: Extractive]
+Q: Where does Nigeria fit into the world Purchasing Power Parity index?
+A: Nigeria	
+GDP per capita, Purchasing Power Parity
+ Latest value	4969.22
+ Reference	2021
+ Measure	U.S. dollars
+ Source	The World Bank
+
+For that indicator, we provide data for Nigeria from 1990 to 2021. The average value for Nigeria during that period was 4098.47 U.S. dollars with a minimum of 2901.77 U.S. dollars in 1995 and a maximum of 5516.39 U.S. dollars in 2014. The latest value from 2021 is 4969.22 U.S. dollars. For comparison, the world average in 2021 based on 173 countries is 21226.17 U.S. dollars. [Type: Extractive]","https://www.globalpetrolprices.com/documents/Global_Fuel_Prices_Primer.pdf
+https://www.princeton.edu/~deaton/downloads/Deaton_Aten_Trying_to_understand_ICP_2011_V5.pdf
+https://www.theglobaleconomy.com/Nigeria/gdp_per_capita_ppp/
+https://www150.statcan.gc.ca/n1/pub/11f0027m/2009058/part-partie1-eng.htm",,,,,,,,,,,,,,pending,,
+210,Not Enough Evidence,There was a 40% drop in oil prices in Nigeria.,2020-01-10,President of Nigeria Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,the answers do not provide enough evidence either way,"Q: Has Nigeria's oil price dropped by 40% in 2020?
+A: No answer could be found. [Type: Unanswerable]
+Q: How much did oil prices drop in Nigeria in 2020?
+A: According to data from July 2020 from the Nigerian National Petroleum Corporation, monthly average prices decreased 73% from January to April 2020. [Type: Abstractive]
+Q: How much did oil prices drop in Nigeria in 2019?
+A: No answer could be found. [Type: Unanswerable]
+Q: Are there frequent fluctuations in the oil price in Nigeria?
+A: Yes [Type: Boolean]","https://web.archive.org/web/20210405033525/https://nnpcgroup.com/NNPCDocuments/Performance%20Data/FullReports/NNPC%20Monthly%20Financial%20and%20Operations%20Report%20for%20the%20Month%20of%20July%202020.pdf
+https://www.intechopen.com/chapters/73798",,,,,,,,,,,,,,pending,,
+220,Not Enough Evidence,Fuel in Nigeria in 2020 was not cheaper than that in Saudi Arabia.,2020-01-10,President of Nigeria Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,No price is offered for saudi arabia to make comparison.,"Q: What was the average for fuel prices in Nigeria in 2020?
+A: N162 per litre [Type: Extractive]
+Q: What was the average for fuel prices in Saudi Arabia in 2020?
+A: No answer could be found. [Type: Unanswerable]",https://punchng.com/petrol-price-in-nigeria-one-of-the-cheapest-in-africa-says-fg/,,,,,,,,,,,,,,pending,,
+223,Not Enough Evidence,Nigeria's petrol prices are lower than Saudi Arabia's.,2020-01-10,President Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,No answer is given in the Q&A.,"Q: Is Nigeria's petrol prices lower than Saudi Arabia's?
+A: In the year to the president’s speech, from 1 October 2019, prices fell 36.5%. We have asked the presidency for clarification. [Type: Extractive]
+Q: Is Saudi Arabias oil more expensive than Nigeria?
+A: No answer could be found. [Type: Unanswerable]",Metadata,,,,,,,,,,,,,,pending,,
+225,Not Enough Evidence,There was a 40% drop in oil prices in Nigeria in 2020.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,There isn't enough evidence in the answer provided to support the claim,"Q: How much did oil prices drop by in Nigeria in 2020?
+A: In July 2020, Group operating revenue as compared to June 2020, increased by 11.00%
+or N34.62Billion to stand at N349.35Billion. Likewise, expenditure for the month
+increased by 5.24% or N16.39Billion, at N328.99Billion. [Type: Extractive]
+Q: Did the president make it clear in his speech when the oil prices dropped?
+A: No [Type: Boolean]","https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/
+https://web.archive.org/web/20210526202243/https://www.nnpcgroup.com/NNPCDocuments/Performance%20Data/FullReports/NNPC%20Monthly%20Financial%20and%20Operations%20Report%20for%20the%20Month%20of%20July%202020.pdf",,,,,,,,,,,,,,pending,,
+229,Not Enough Evidence,"There was a 40% drop in the price of oil, Nigeria's main export.",2020-01-10,President Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,there isn't enough evidence on Nigerian  oil prices in this time period. ,"Q: How much did Nigerian oil prices fall in 2020?
+A: According to data from July 2020 from the Nigerian National Petroleum Corporation, monthly average prices decreased 73% from January to April 2020. [Type: Abstractive]
+A: According to data from July 2020 from the Nigerian National Petroleum Corporation, monthly average prices decreased 73% from January to April 2020. [Type: Abstractive]
+Q: How much did Nigerian oil prices fall in 2019?
+A: No answer could be found. [Type: Unanswerable]
+Q: Are there frequent fluctuations in Nigeria's oil prices?
+A: Oil prices have witnessed profound fluctuations and this has implications for the performance of macroeconomic variables, posing great challenges for policy making. [Type: Extractive]","https://scialert.net/fulltext/?doi=aujss.2017.1.16#:~:text=The%20surplus%20of%20exporting%20value,great%20challenges%20for%20policy%20making.
+https://web.archive.org/web/20210405033525/https://nnpcgroup.com/NNPCDocuments/Performance%20Data/FullReports/NNPC%20Monthly%20Financial%20and%20Operations%20Report%20for%20the%20Month%20of%20July%202020.pdf",,,,,,,,,,,,,,pending,,
+233,Not Enough Evidence,There has been a 60% drop in government revenue.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,"The claim does not state what period is being compared to what other period.
+
+The QA pairs state different figures for different areas of income but it is unknown if this covers all income etc.","Q: Which country does the claim refer to?
+A: Nigeria. [Type: Extractive]
+Q: What time frame does the claim reference for Nigeria's drop in revenue?
+A: It is not clear what time frame is used, [Type: Extractive]
+Q: What was the claim date?
+A: 10th January 2020. [Type: Extractive]
+Q: What was Nigeria's target for government revenue in  2020?
+A: Documents from the budget office show that in revising the 2020 budget, the gross oil and gas revenue target was pared back from N7.67 trillion to N3.03 trillion. [Type: Extractive]
+Q: What was the government revenue in early 2020?
+A: as of May, N1.99 trillion had been banked in the first five months of 2020, instead of the projected oil and gas revenue of N1.26 trillion. This is a 57.4% surplus. [Type: Extractive]
+Q: What there a shortfall in government revenue in 2019?
+A: the 2019 budget proposals show that net oil revenue was short by 62.8% and net non-oil revenue by 11.9%, [Type: Abstractive]
+Q: does the 2021 budget proposal show or reflect a 60% drop in revenue
+A: No [Type: Boolean]","Metadata
+https://web.archive.org/web/20210521175348/https://www.budgetoffice.gov.ng/index.php?option=com_users&view=login&return=aHR0cHM6Ly93d3cuYnVkZ2V0b2ZmaWNlLmdvdi5uZy9pbmRleC5waHAvMjAyMS0yMDIzLW10ZWYtZnNwP3Rhc2s9ZG9jdW1lbnQudmlld2RvYyZpZD04MTQ=
+https://web.archive.org/web/20210526202243/https://www.google.com/url?q=https://www.budgetoffice.gov.ng/index.php/hmfbnp-public-presentation-of-2021-fgn-budget?task%3Ddocument.viewdoc%26id%3D897&sa=D&ust=1602757041951000&usg=AFQjCNH3Qpvb9d2uhgiOOhVBpZxtHZw2Rg
+https://www.budgetoffice.gov.ng/index.php/component/edocman/search-result?filter_search=2020%20&Itemid=0",,,,,,,,,,,,,,pending,,
+237,Not Enough Evidence,"The alleged concerns of the United States over Cuba's cooperation, in this case about the ‘More Doctors’ program, are neither legitimate nor pertinent to be discussed at PAHO [Pan American Health Organization].",30-9-2020,Cuban Ministry of Foreign Affairs,https://web.archive.org/web/20210322214935/https://www.polygraph.info/a/fact-check-more-doctors-for-brazil-more-cash-for-cuba/30881045.html,https://web.archive.org/web/20201101000052/http://www.granma.cu/cuba-covid-19/2020-09-30/minrex-estados-unidos-arrecia-su-campana-contra-la-cooperacion-medica-internacional-de-cuba,The claim is simply not investigated i.e. were the cconcerns legitimate and/or pertinent.,"Q: Are there issues with the more doctors program
+A: The new legislation seeks to strengthen accountability for the Cuban regime’s documented human trafficking and exploitation of Cuban doctors, nurses, and other medical professionals through overseas medical missions. [Type: Extractive]
+Q: What are the alleged concerns of USA over ""More Doctors"" programme?
+A: USA asked how “the programme came to be the middleman in a scheme to exploit Cuban medical workers in Brazil,” why the group sent $1.3 billion to Cuba, why it didn’t seek the approval from its executive council for involvement in the Brazilian program, and what PAHO did with $75 million it collected from Mais Medicos. [Type: Extractive]","Metadata
+https://web.archive.org/web/20210319020517/https://www.foreign.senate.gov/press/ranking/release/menendez-rubio-unveil-new-effort-to-combat-trafficking-of-cuban-doctors",,,,,,,,,,,,,,pending,,
+241,Not Enough Evidence,President Joe Biden is abusing the prescription drug Adderall.,29-9-2020,Donald Trump,https://web.archive.org/web/20210307115552/https://misbar.com/en/factcheck/2020/09/30/commotion-accusations-of-adderall-abuse,https://slate.com/technology/2020/09/joe-biden-drug-test-trump-adderall-debunk.html,There's no evidence that Biden does or does not take Adderall.,"Q: What is Adderall?
+A: Adderall is an addictive prescription Stimulant with effects similar to Meth. Because of its potency and accessibility, the risk of Adderall addiction and abuse is high. [Type: Extractive]
+Q: Does Joe Biden take Adderall?
+A: No answer could be found. [Type: Unanswerable]",https://www.addictioncenter.com/stimulants/adderall/,,,,,,,,,,,,,,pending,,
+282,Not Enough Evidence,Premier Daniel Andrews of the state of Victoria in Australia sold the rights to water to China.,22-9-2020,Pete Evans,https://web.archive.org/web/20210515234346/https://www.aap.com.au/victoria-did-not-take-an-imf-bribe-in-return-for-lockdown/,https://web.archive.org/web/20210515234346/https://archive.vn/zYFgz,The Q&A Pair did not ask about the Premier Daniel Andrews nor did the source provide nay relevant evidence connected to the claim.,"Q: The the premier sign the Belt and Road initiative
+A: the premier signed the state up to the Belt and Road initiative, [Type: Extractive]",https://web.archive.org/web/20210515234346/https://www.worldbank.org/en/topic/regional-integration/brief/belt-and-road-initiative,,,,,,,,,,,,,,pending,,
+328,Not Enough Evidence,24 of every 100 kids in US schools speak Spanish.,16-9-2020,Joe Biden,https://web.archive.org/web/20210115214559/https://www.politifact.com/factchecks/2020/sep/23/joe-biden/fact-checking-bidens-claim-about-number-students-w/,,The first question and answer deals with English speakers not Spanish. The second question and answer is about Hispanic students not the general population in school so there is not enough evidence to see if this claim is true or not.,"Q: What percentage of kids in US schools speak Spanish?
+A: The percentage of public school students in the United States who were English learners was 10.4% in the fall of 2019 and 9.2% in the fall of 2010. [Type: Abstractive]
+A: About 6 in 10 young Hispanics say they use Spanish. [Type: Extractive]","https://nces.ed.gov/programs/coe/indicator/cgf
+https://www.pewresearch.org/fact-tank/2018/09/13/key-facts-about-young-latinos/",,,,,,,,,,,,,,pending,,
+375,Not Enough Evidence,"Nigeria was the third most terrorised in the world in 2020, after Afghanistan and Iraq.",2020-10-09,TVC News Nigeria,https://web.archive.org/web/20210503162022/https://factcheck.afp.com/old-data-circulates-claiming-nigeria-most-terrorised-country-africa,https://perma.cc/X8R7-ZCAD?type=image,"The source refers to the 2019 data, while there's no evidence as to Nigeria's ranking in the 2020 data.","Q: What were the top three most terrorised countries in the world in 2020?
+A: The 2020 data had not yet been released at the time of the claim. 
+
+In 2019 data set “Nigeria remains the 3rd most terrorised nation in the world, according to the global terrorism index report of 2018. The five most terrorised countries in the world are Iran, Afghanistan, Nigeria, Syria and Pakistan"" [Type: Abstractive]",https://www.vanguardngr.com/2019/09/nigeria-3rd-most-terrorised-nation-security-expert/,,,,,,,,,,,,,,pending,,
+394,Not Enough Evidence,"Under Trump's watch, auto assembly plants have been added at an unprecedented rate in Michigan, Ohio, North Carolina, South Carolina and possibly other states.",2020-07-09,Donald Trump,https://web.archive.org/web/20210122200857/https://www.washingtonpost.com/politics/2020/09/10/trump-keeps-bragging-about-imaginary-auto-plants-swing-states/,,"Although there is evidence of investment in auto assembly plants in Michigan there are no earlier figures for comparison. Without these it is impossible to say if the current rate of investment is ""unprecedented"".","Q: Have any auto plants been opened or had new investment under Trump's administration?
+A: Yes [Type: Boolean]
+A: Yes [Type: Boolean]
+A: Yes [Type: Boolean]
+Q: Under Trump's watch, how many auto assembly plants have been added  in Michigan, Ohio, North Carolina, South Carolina?
+A: No answer could be found. [Type: Unanswerable]","https://9to5google.com/2019/01/22/waymo-michigan-self-driving-factory/
+https://alabamanewscenter.com/2017/09/27/toyota-to-invest-106m-in-alabama-engine-plant-add-50-jobs/
+https://www.intelligenttransport.com/transport-news/24458/navya-production-plant-michigan/",,,,,,,,,,,,,,pending,,
+413,Not Enough Evidence,"Over the past 40 years, the Uyghur population in Xinjiang, in China, grew from 5.55 million to 12 million.",2020-04-09,Spokesperson for Chinese Ministry of Foreign affairs,https://web.archive.org/web/20210117092936/https://www.polygraph.info/a/china-cites-misleading-stats-to-deny-uighur-sterilization-campaign/30829478.html,https://web.archive.org/web/20201130232159/https://twitter.com/MFA_China/status/1301903192997769216,There are no reliable population figures for the Uyghur population in Xinjiang.,"Q: what is the birthrate of the Uyghur population in Xinjiang
+A: Birth rates in the mostly Uighur regions of Hotan and Kashgar plunged by more than 60% from 2015 to 2018, the latest year available in government statistics. Across the Xinjiang region, birth rates continue to plummet, falling nearly 24% last year alone — compared to just 4.2% nationwide, statistics show. [Type: Extractive]
+Q: why did the birthrates plummet
+A: The Chinese government is taking draconian measures to slash birth rates among Uighurs and other minorities as part of a sweeping campaign to curb its Muslim population, even as it encourages some of the country’s Han majority to have more children.
+
+While individual women have spoken out before about forced birth control, the practice is far more widespread and systematic than previously known, according to an AP investigation based on government statistics, state documents and interviews with 30 ex-detainees, family members and a former detention camp instructor. The campaign over the past four years in the far west region of Xinjiang is leading to what some experts are calling a form of “demographic genocide.”
+
+The state regularly subjects minority women to pregnancy checks, and forces intrauterine devices, sterilization and even abortion on hundreds of thousands, the interviews and data show. Even while the use of IUDs and sterilization has fallen nationwide, it is rising sharply in Xinjiang.
+
+The population control measures are backed by mass detention both as a threat and as a punishment for failure to comply. Having too many children is a major reason people are sent to detention camps, the AP found, with the parents of three or more ripped away from their families unless they can pay huge fines. Police raid homes, terrifying parents as they search for hidden children. [Type: Extractive]
+Q: Are there reliable population figures for the Uyghur population in Xinjiang, in China over the last 40 years?
+A: No. There are no reliable population figures. [Type: Extractive]","https://china.usc.edu/whats-stake-xinjiang
+https://web.archive.org/web/20210116174221/https://apnews.com/article/269b3de1af34e17c1941a514f78d764c",,,,,,,,,,,,,,pending,,
+428,Not Enough Evidence,More cops have died from COVID this year than have been killed on patrol.,2020-02-09,Jon Greenberg,https://web.archive.org/web/20210601211615/https://www.politifact.com/factchecks/2020/sep/02/joe-biden/has-covid-19-killed-more-cops-all-other-causes/,https://web.archive.org/web/20210601211615/https://www.politifact.com/factchecks/2020/sep/02/joe-biden/has-covid-19-killed-more-cops-all-other-causes/#sources,The first answer only shows data for Cops who have died due to COVID-19. There's no data for those who have died on patrol so there'll be comparison,"Q: Did COVID-19 killed more law enforcement officers this year than those cops who died on patrol, in 2020
+?
+A: COVID-19 Line-of-Duty Deaths
+
+While COVID-19 is without a doubt a public health crisis, it is also a public safety crisis. The FOP knew at the beginning of the pandemic that law enforcement officers on the front lines combating this pandemic—more than 90% of whom will be responding from local and State agencies—would be increasingly vulnerable to contracting the virus. COVID-19 makes no distinction between age, race or gender. As we had feared, the virus has claimed the lives of many, and now includes a growing number of law enforcement officers.
+
+Please Note: The following list has been compiled using media and news reports of law enforcement officers who have died due to COVID-19. The numbers listed include all reported COVID-19 deaths—not all have been verified. The FOP’s goal is to maintain an accurate and up-to-date list and is working around the clock to support our members as we all respond to the national pandemic. To ensure that every officer is accounted for, if you are aware of an officer that has died in the line of duty due to COVID-19, please feel free to send an email to Mark McDonald with the officer’s information and a link to either a media report or obituary.
+
+If you have any questions or concerns, please feel free to reach out to us via email at media@fop.net.
+Total Deaths (As of June 18, 2021)
+
+493
+State
+
+Alabama
+    6
+Alaska
+    0
+American Samoa
+    0
+Arizona
+    11
+Arkansas
+    3
+California
+    49
+Colorado
+    3
+Connecticut
+    1
+Delaware
+    0
+Florida
+    30
+Georgia
+    23
+Guam
+    2
+Hawaii
+    0
+Idaho
+    0
+Illinois
+    13
+Indiana
+    3
+Iowa
+    2
+Kansas
+    6
+Kentucky
+    5
+Louisiana
+    25
+Maine
+    0
+Maryland
+    6
+Massachusetts
+    5
+Michigan
+    12
+Minnesota
+    1
+Mississippi
+    4
+Missouri
+    4
+Montana
+    1
+Nebraska
+    2
+Nevada
+    2
+New Hampshire
+    0
+New Jersey
+    18
+New Mexico
+    0
+New York
+    44
+North Carolina
+    16
+North Dakota
+    0
+Ohio
+    14
+Oklahoma
+    4
+Oregon
+    0
+Pennsylvania
+    16
+Puerto Rico
+    7
+Rhode Island [Type: Extractive]
+Q: Did Democratic presidential candidate former Vice President Joe Biden visit Pittsburgh Local Fire Fighters No. 1 in Pittsburgh on August 31 2020?
+A: Biden gave a speech in Pittsburgh on August 31 2020 but the article does not mention firefighters or visiting their location. [Type: Abstractive]
+Q: Is the claim related to the information provided in the text?
+A: No, it looks like this claim refers to another article. [Type: Abstractive]","Metadata
+https://web.archivehttps://fopcovid19.org/news/covid-19-line-of-duty-deaths/
+https://www.politico.com/news/2020/08/31/joe-biden-speech-riots-looters-405981",,,,,,,,,,,,,,pending,,
+458,Not Enough Evidence,The South African Police Service kills three times more people per capita than the United States police force,31-8-2020,,https://web.archive.org/web/20210425200940/https://africacheck.org/fact-checks/reports/police-violence-south-africa-what-do-numbers-show,https://africacheck.org/sites/default/files/screenshot-www.instagram.com-2020.08.31-10_07_31-2.png,There is not enough evidence to confirm or deny this as the US numbers have not been released to the public,"Q: How many people have been killed by police in the USA?
+A: These numbers have not been gathered or released to the public yet. Congress passed the Death in Custody Reporting Act of 2013, which went into effect in December 2014, but federal officials have not yet gathered the data and made it public. [Type: Abstractive]
+Q: How many people have been killed by police in South Africa?
+A: in 2017-18 there were 436 deaths as a result of police action. [Type: Abstractive]",https://web.archive.org/web/20210506185434/https://journalistsresource.org/politics-and-government/deaths-police-custody-united-states/,,,,,,,,,,,,,,pending,,
+483,Not Enough Evidence,"Donald Trump said ""We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office.""",27-8-2020,Donald Trump,https://web.archive.org/web/20210227073357/https://www.politifact.com/article/2020/aug/28/fact-checking-donald-trumps-2020-rnc-speech/,,There was insufficient evidence to determine whether nearly $2.5 trillion was spent on rebuilding the United States military during the Trump administration. ,"Q: What was the US Defense Budget for 2017-2020?
+A: Figure 1. Department of Defense Budget
+$ in billions FY 2017
+Actuals
+FY 2018
+Actuals
+FY 2019
+Enacted
+FY 2020
+Request
+Base 523.5 599.6 616.1 544.5
+Overseas Contingency Operations 82.5 65.2 68.8 66.7
+OCO for Base -- -- -- 97.9
+Emergency -- 5.8 -- 9.2
+Total 606.0 670.6 685.0 718.3 [Type: Extractive]
+A: 606 + 670.6 + 685 + 718.3 = 2679.9 billion. [Type: Abstractive]
+Q: Was all of the money budgeted for US Defense in the years 2017-2020 spent?
+A: No answer could be found. [Type: Unanswerable]
+Q: Did the Trump administration invest $2 trillion in the military?
+A: No answer could be found. [Type: Unanswerable]
+Q: Is Trump’s defense budget really $2 trillion?
+A: No answer could be found. [Type: Unanswerable]",https://comptroller.defense.gov/Portals/45/Documents/defbudget/fy2020/fy2020_Budget_Request_Overview_Book.pdf,,,,,,,,,,,,,,pending,,
+498,Not Enough Evidence,"As we speak the US are developing a growing number of treatments, including convalescent plasma, that are saving lives all across the country.",26-8-2020,Mike Pence,https://web.archive.org/web/20210504031017/https://www.politifact.com/article/2020/aug/27/fact-checking-night-three-2020-rnc/,,"Q&A 1 shows that the claim is correct in stating that Convalescent plasma has been used in the US during what Q&A 1 shows as a covid treatment,
+Q&A 2 however shows that there is no evidence to show that it is actually saving lives so more data would be needed to say this so the claim is half correct. with not enough evidence for the 2nd part of the claim.","Q: Was convalescent plasma treatment approved for use in the usa?
+A: FDA Issues Emergency Use Authorization for Convalescent Plasma as Potential Promising COVID–19 Treatment, Another Achievement in Administration’s Fight Against Pandemic [Type: Extractive]
+Q: Has the plasma been saving lots of lives?
+A: But clinical trials have not proved whether plasma can help people fighting the coronavirus.
+
+Several top health officials — led by Dr. Collins, the director of the National Institutes of Health; Dr. Fauci, the government’s top infectious disease expert; and Dr. Lane — urged their colleagues last week to hold off, citing recent data from the country’s largest plasma study, run by the Mayo Clinic. They thought the study’s data to date was not strong enough to warrant an emergency approval. [Type: Extractive]","https://web.archive.org/web/20210504041618/https://www.fda.gov/news-events/press-announcements/fda-issues-emergency-use-authorization-convalescent-plasma-potential-promising-covid-19-treatment
+https://www.nytimes.com/2020/08/19/us/politics/blood-plasma-covid-19.html",,,,,,,,,,,,,,pending,,
+24,Refuted,Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence.,27-10-2020,,https://web.archive.org/web/20201107130020/https://factcheck.afp.com/german-foreign-ministers-comments-about-thailands-anti-government-protests-misrepresented-social,,"This claim is refuted. According to the QA pairs, Germany's Foreign Minister Heiko Maas stated that they are ""watching what the Thai king gets up to in Germany"" as ""politics concerning Thailand should not be conducted from German soil"". The Thai King is accused of conducting politics from Germany. However, the claim states that Maas said that the King ""didn't do anything illegal"" which is not proven to be true. Therefore, this claim is refuted.","Q: What is Thailand’s King Maha Vajiralongkorn accused of doing while at his German residence?
+A: He is accused of conducting politics from the European country, where he spends much of his time. [Type: Extractive]
+Q: Has Germany’s Foreign Minister Heiko Maas made any comments on Thailand’s King Maha Vajiralongkorn conducting business within Germany?
+A: Maas told parliament. ""We have made it clear that politics concerning Thailand should not be conducted from German soil,"" [Type: Extractive]
+Q: Did Germany’s Foreign Minister Heiko Maas say that the king has done nothing illegal?
+A: No [Type: Boolean]","https://web.archive.org/web/20201107142547/https://www.dw.com/en/german-foreign-minister-heiko-maas-i-am-also-watching-what-the-thai-king-gets-up-to-in-germany/av-55399648
+https://www.smh.com.au/world/asia/unusual-if-not-illegal-germany-says-thai-king-cannot-rule-from-there-20201009-p563kd.html",,,,,,,,,,,,,,pending,,
+45,Refuted,Cutting the umbilical cord straight away deliberately denies the baby natural immunity so that medical professionals have a reason to vaccinate and medicate them.,23-10-2020,Robin L. Haywood,https://web.archive.org/web/20201126102707/https://www.aap.com.au/experts-clamp-down-claims-linking-umbilical-cord-cutting-to-vaccines/,https://archive.ph/ZLpUA#selection-437.0-437.16,"From the 2nd answer it is evident that the umbilical cord does not have anything to do with the babies getting vaccinated. The vaccination has to happen regardless, therefore the claim is refuted","Q: Is there any benefits to waiting before cutting the umbilical cord?
+A: University of Auckland associate professor of maternal and perinatal health Katie Groom said there was good evidence for waiting one minute before cutting the umbilical cord, particularly in preterm babies, but there was no evidence that waiting an hour was beneficial.
+
+“There is ongoing research into the benefits of waiting longer than one minute, but that means three to five minutes and certainly not an hour,” Dr Groom told AAP FactCheck via phone. [Type: Abstractive]
+Q: Would staying connected to the umbilical cord mean there would not be a need for vaccinations?
+A: Dr Polyakov said all babies needed to be vaccinated, regardless of how long they remained attached to the umbilical cord.
+
+“Vaccines are the only way to ensure the baby won’t get diseases like whooping cough or measles.” [Type: Abstractive]","Metadata
+https://web.archive.org/web/20201026050315/https://pubmed.ncbi.nlm.nih.gov/29097178/",,,,,,,,,,,,,,pending,,
+52,Refuted,President Ferdinand Marcos and Dr. Jose Rizal established and founded the WORLD BANK and International Monetary Fund.,22-10-2020,Bangon Bansang Maharlika,https://web.archive.org/web/20210127061518/https://factcheck.afp.com/misleading-claim-circulates-world-bank-and-imf-were-established-former-dictator-ferdinand-marcos-and,,"On the World Bank’s website and the IMF’s website, it states both entities were conceived and established in 1944, following the Bretton Woods agreement on a global economic framework post-World War II.  ","Q: When was Fredinand Marcos president of the Philippines?
+A: Ferdinand Marcos was president of the Philippines from 1965 to 1986. [Type: Abstractive]
+Q: When was Jose Rizal executed?
+A: Filipino nationalist Jose Rizal was executed in 1896. His death fueled nationalist sentiment against Spanish colonial rule. [Type: Abstractive]
+Q: When was the World bank established?
+A: On the World Bank’s website and the IMF’s website, it states both entities were conceived and established in 1944, following the Bretton Woods agreement on a global economic framework post-World War II. [Type: Abstractive]","https://web.archive.org/web/20201113200103/http://www.officialgazette.gov.ph/featured/the-fall-of-the-dictatorship/
+https://web.archive.org/web/20210127061518/https://www.biography.com/political-figure/jos%C3%A9-rizal
+https://web.archive.org/web/20210127061518/https://www.worldbank.org/en/about/archives/history#:~:text=Conceived%20in%201944%20at%20the,1947%20for%20post%2Dwar%20reconstruction",,,,,,,,,,,,,,pending,,
+56,Refuted,Previous flu vaccines may have made President Donald Trump susceptible to COVID-19,21-10-2020,Miriam Fauzia,https://web.archive.org/web/20201203123750/https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-donald-trumps-flu-shots-covid-risk-arent-linked/3623699001/,,Studys show the flu vaccine does not affect how susceptible some one is to covid-19 so based on this it would mean Donald Trump was not more susceptible.,"Q: What is the difference between Flu and Covid-19?
+A: COVID-19 and influenza (flu) are both infectious respiratory illnesses. Though the symptoms of these two diseases seem similar, they are caused by different viruses. While many people often compare COVID-19 to the flu, there are many differences between them. [Type: Extractive]
+Q: Have any studies been done to show if having the Flu vaccine makes you more susceptible  to getting Covid-19?
+A: Yes [Type: Boolean]","https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/safety-of-influenza-vaccine-during-covid19/C26A417046677E65D421AD33B3E6281F
+https://www.news-medical.net/health/What-is-the-Difference-Between-COVID-19-and-the-Flu.aspx",,,,,,,,,,,,,,pending,,
+65,Refuted,"Someone who couldn't afford health care under Barack Obama's Affordable Care Act gets penalized $10,000",20-10-2020,Capitalism,https://web.archive.org/web/20210116144247/https://leadstories.com/hoax-alert/2020/10/fact-check-trump-congress-did-end-theft-of-tax-penalty-for-non-insured-but-10000-penalty-not-likely.html,https://web.archive.org/web/20210116144247/https://www.facebook.com/Capitalists/photos/a.226491315514/10164464788875515,"The 2nd Q&A pair point out that from 2019 there was no more penalty for having no health insurance in the US, whilst the claim was made in 2020.","Q: When was the claim made
+A: 20/10/2020 [Type: Extractive]
+Q: What is the penalty for not having a health insurance in 2020
+A: From 2019, there was no more penalty for not having a health insurance [Type: Abstractive]","Metadata
+https://web.archive.org/web/20210119152541/https://www.healthforcalifornia.com/covered-california/uninsured-penalty",,,,,,,,,,,,,,pending,,
+84,Refuted,It's unclear how Joe Biden acquired his recent wealth since leaving office in 2017,17-10-2020,The Lutchman Report,https://web.archive.org/web/20210407214102/https://www.usatoday.com/story/news/factcheck/2020/10/21/fact-check-biden-amassed-wealth-through-speaking-and-book-profits/5981003002/,https://www.facebook.com/thelutchmanreport/photos/a.101396464922781/195966522132441/?type=3&theater,He made $15.6 million in the 2 years after he left office mostly through speaking fees ,"Q: Has Joe Biden made his tax returns public?
+A: Yes [Type: Boolean]
+Q: Where did Joe Biden's earnings come from in 2017-19?
+A: But in the two years after he left the White House, Biden made $15.6 million, largely through speaking fees and book profits. He and Jill made $11 million in 2017 and $4.6 million in 2018, and paid $3.7 million in taxes in 2017 and $1.5 million in 2018, financial documents released by Biden’s campaign last year show. [Type: Extractive]","https://twitter.com/JoeBiden/status/1310998525321383944?s=20
+https://www.cnn.com/2020/09/29/politics/joe-biden-tax-returns/index.html",,,,,,,,,,,,,,pending,,
+130,Refuted,"Kirron Kher, BJP’s Chandigarh MP, said “Rape is part of Indian culture and tradition. We cannot stop it!”",2020-10-10,Saqib Ghias Khan,https://web.archive.org/web/20201028195759/https://newsmeter.in/fact-check-actor-turned-chandigarh-bjp-mp-kirron-kher-did-not-say-rape-is-part-of-indian-culture/,https://www.facebook.com/saqibkhan2767/posts/3408050572635173,The answers show that she has spoken about rape but she has not said the quote so the claim is refuted.,"Q: Who is Kirron Kher?
+A: She's an Indian MP representing the Bharatiya Janata Party for the state of Chandigarh. [Type: Abstractive]
+Q: When did Kirron Kher make a statement about rape in India?
+A: In August 2017 and January 2018. [Type: Abstractive]
+Q: What did Kirron Kher say about rape in 2017 and 2018?
+A: In August 2017, BJP member Ramveer Bhatti's had said parents should take care of their girls.
+
+“Children should come home on time, why stay out at night?"" he said.
+
+Responding to fellow partyman's statement, Kher had said, “Why is there danger at night and not during the day? They should tell boys not to go out at night.”
+
+In 2018 she said: “Such incidents have been taking place since forever, only change in mindset can bring about change. Change in society starts from within a family,” [Type: Extractive]
+Q: Was Kirron Kher quoted saying that ""Rape is part of Indian culture and tradition. We cannot stop it!”?
+A: No answer could be found. [Type: Unanswerable]
+A: There is no record of her saying this. [Type: Abstractive]","https://web.archive.org/web/20201028195759/https://www.aninews.in/news/national/general-news/change-of-mindset-can-end-rape-culture-kirron-kher201801221526160001/
+https://www.india.gov.in/my-government/indian-parliament/kirron-kher
+https://zeenews.india.com/haryana/change-in-mindset-starts-within-family-kirron-kher-on-haryana-rape-cases-2075310.html",,,,,,,,,,,,,,pending,,
+137,Refuted,it is unknown whether a person under 20 can pass the disease to an older adult.,2020-08-10,Sen. Van Wanggaard,https://web.archive.org/web/20210118050728/https://www.politifact.com/factchecks/2020/oct/14/van-wanggaard/wisconsin-senator-base-claim-its-unknown-whether-y/,,There is some evidence that shows the virus has been transmitted to adults from children so the claim is refuted.,"Q: Can a person under 20 pass Covid-19 to an older adult?
+A: Yes [Type: Boolean]
+A: A Centers for Disease Control and Prevention report on transmission dynamics by age group in hotspot areas of the U.S., released Oct. 9, 2020, found that the percentage of people testing positive among older age groups began to increase after it increased among people ages 0-17 and 18-24. That suggests that at least some younger people were passing the virus to older people. [Type: Extractive]
+Q: Has there been a case where a child has given an adult Covid-19?
+A: Household transmission studies showed that children were rarely the index case and case studies suggested that children with COVID-19 seldom caused outbreaks. However, it is highly likely that children can transmit the SARS-COV-2 virus. [Type: Abstractive]","https://pubmed.ncbi.nlm.nih.gov/32430964/
+https://www.cdc.gov/mmwr/volumes/69/wr/mm6941e1.htm",,,,,,,,,,,,,,pending,,
+174,Refuted,"Wearing face masks leads to permanent neurological damage, especially in children.",2020-04-10,Henna Maria,https://web.archive.org/web/20210323004829/https://www.aap.com.au/face-mask-oxygen-deprivation-claims-are-a-lot-of-hot-air/,https://web.archive.org/web/20210323004829/http://archive.today/6Hm5X,The answer and source show that there is no permanent damage to wearing a mask so the claim is refuted.,"Q: Can wearing masks cause neurological damage?
+A: “The prolonged use of medical masks can be uncomfortable. However, it does not lead to CO2 intoxication nor oxygen deficiency,” WHO says on its website. [Type: Abstractive]",https://web.archive.org/web/20210322224953/https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-masks,,,,,,,,,,,,,,pending,,
+180,Refuted,"Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer.",2020-02-10,,https://web.archive.org/web/20210123192218/https://leadstories.com/hoax-alert/2020/10/fact-check-study-did-not-say-men-must-have-sex-at-least-21-times-a-month-to-avoid-prostate-cancer.html,,"Seems from the question-answer pairs that 21 times of ejaculation is not needed to avoid prostate cancer. Therefore, the claim is refuted.","Q: Who is Dr Ebeneezer?
+A: The original article claims Ebeneezer is a medical doctor and a herbal practitioner at the Amuzu Hospital [Type: Abstractive]
+Q: Is amount of sex or ejaculation linked to prostate cancer?
+A: Yes [Type: Boolean]
+Q: Did the study conclude or recommend that men have sex/ejaculate 21 times per month?
+A: No [Type: Boolean]","https://web.archive.org/web/20201228105910/https://www.sciencedirect.com/science/article/abs/pii/S0302283816003778?via%3Dihub
+https://web.archive.org/web/20210119165100/https://www.westafricareporters.com/men-must-have-sex-at-least-21-times-a-month-to-avoid-prostate-cancer-expert/",,,,,,,,,,,,,,pending,,
+189,Refuted,During a speech on 2nd October 2020 Joe Biden said he would create 550 million new jobs.,2020-02-10,,https://web.archive.org/web/20210118042253/https://checkyourfact.com/2020/10/15/fact-check-joe-biden-550-million-jobs-speech/,,there are no reports of biden claiming he would create 550 million new jobs,"Q: During a speech on 2nd October 2020 did Joe Biden say he would create 550 million new jobs?
+A: There is no record of Biden making the remark on Oct. 2. It appears to be a misrepresentation of Biden saying in Michigan that he wants to create 5 million new manufacturing and technology jobs. [Type: Extractive]
+A: If he said he would create 550 million new jobs, it likely would have been picked up by media outlets, yet none appear to have done so on Oct. 2 or any other date. [Type: Abstractive]","Metadata
+https://www.google.com/search?q=550+million+jobs+joe+biden&client=safari&rls=en&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiWhLbSn7LsAhUWknIEHctCA_gQ_AUoAXoECAsQAw&biw=1440&bih=837",,,,,,,,,,,,,,pending,,
+190,Refuted,US President Donald Trump used a fabricated COVID-19 positive diagnosis to benefit his re election campaign.,2020-01-10,Richard Greene,https://web.archive.org/web/20210722012650/https://www.factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis/,https://web.archive.org/web/20210722012650/https://archive.is/NF90q#selection-703.95-703.173,The claim that President Donald Trump fabricated COVID-19 is not backed up by official sources. ,"Q: Did US President Donald Trump test positive for Covid 19 in October 2020?
+A: Yes [Type: Boolean]
+Q: Did US President Donald Trump fake a COVID-19 positive diagnosis to benefit his re election campaign?
+A: No [Type: Boolean]",https://www.factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis/,,,,,,,,,,,,,,pending,,
+193,Refuted,Two E-6B Mercury planes were deployed because of US President Trump's positive COVID-19 test.,2020-01-10,Tim Hogan,https://web.archive.org/web/20210722012650/https://www.factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis/,https://archive.ph/izjvH/760c5b3b3ce0e2d27fc04a776e620faf448c9d00.jpg,"Seems that from the answer, he planes were not deployed because of Donald Trump. Therefore the claim is refuted","Q: Were Two E-6B Mercury planes deployed because of US President Trump's positive COVID-19 test?
+A: The planes, which have various nicknames, can be used as command centers and can launch land-based intercontinental ballistic missiles. But that’s not what they were doing at the time. [Type: Extractive]",Metadata,,,,,,,,,,,,,,pending,,
+232,Refuted,"Uttar Pradesh Chief Minister Yogi Adityanath said ‘our job is to save cows, not women.’",2020-01-10,Amit Kumar Yadav ,https://web.archive.org/web/20210118230607/https://thelogicalindian.com/fact-check/fact-check-uttar-pradesh-cm-yogi-adityanath-saves-cows-women-24110,https://twitter.com/AmitKum45151198/status/1311549447030013953?ref_src=twsrc%5Etfw,"This claim was posted on a popular website known for publishing Satire.  rumourtimes.com is a satire and humour website. Hence, the statement  is not true.  ","Q: Where was the claim first published
+A: It was first published on a website called rhumortimes.com [Type: Extractive]
+A: It was first published on a website called rumourtimes.com [Type: Extractive]
+Q: What kind of website is rhumortimes.com
+A: It is a satirical website [Type: Extractive]
+Q: What kind of website is rumourtimes?
+A: ""Rumour times is a satire and humour website. The website publishes rumours with humour (Translated to English)"" reads the website. [Type: Abstractive]","Metadata
+https://www.facebook.com/search/top?q=%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A5%80%20%E0%A4%B8%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%95%E0%A4%BE%20%E0%A4%95%E0%A4%BE%E0%A4%AE%20%E0%A4%97%E0%A4%BE%E0%A4%AF%20%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%A8%E0%A4%BE%20%E0%A4%B9%E0%A5%88%2C%20%E0%A4%B2%E0%A4%A1%E0%A4%BC%E0%A4%95%E0%A5%80%20%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82
+https://www.rumourtimes.com/p/terms-conditions.html",,,,,,,,,,,,,,pending,,
+247,Refuted,There is more chance of an asteroid hitting Earth on 02/11/2020 than dying from COVID-19.,28-9-2020,Cassie Koutras,https://web.archive.org/web/20210415081611/https://www.aap.com.au/is-there-more-chance-of-an-asteroid-hitting-earth-than-dying-from-covid-19/,https://www.facebook.com/photo.php?fbid=10218578342869566&set=a.1569465996347&type=3&theater,There are no current asteroid threats - therefore this claim has no foundation. ,"Q: What are the chances of an asteroid hitting the Earth on 02/11/200?
+A: Asteroid 2018VP1 is very small, approx. 6.5 feet, and poses no threat to Earth. It currently has a 0.41% chance of entering our planet’s atmosphere, but if it did, it would disintegrate due to its extremely small size. [Type: Extractive]
+Q: What are the chances of dying from Covid-19?
+A: There are three measures of risk: the “case fatality rate”, the “crude mortality rate”, and the “infection fatality rate”, and they’re all different. [Type: Abstractive]
+A: COVID-19 infection fatality rate (IFR) is an important statistic for policy about the disease.
+•
+Published estimates vary, with a ‘true’ fatality rate hard to calculate.
+•
+Systematically reviewing the literature and meta-analysing the results show an IFR of 0.68% (0.53%–0.82%).
+•
+This rate varied from place to place, with a lower range of 0.17% and a highest estimate of 1.7%.
+•
+Serology studies with a lower risk of bias appeared to demonstrate a higher IFR than those at a higher risk of bias. [Type: Extractive]","https://ourworldindata.org/mortality-risk-covid
+https://twitter.com/AsteroidWatch/status/1297576303206576133
+https://www.ijidonline.com/article/S1201-9712%2820%2932180-9/fulltext",,,,,,,,,,,,,,pending,,
+248,Refuted,Sadiq Khan faked getting the flu jab as the plastic cap was still on the needle.,28-9-2020,British Voice,https://web.archive.org/web/20210416140329/https://fullfact.org/online/sadiq-khan-flu-jab/,https://web.archive.org/web/20201014065553/https://www.facebook.com/probritish/photos/a.10150252998240912/10158771943540912/?type=3&__xts__%5B0%5D=68.ARDKVOLIVv4QxDuIceAS_lFnwBTtSzmPRR347X8uDu20vv4S6hxYl5lN-152Wp0O4VC8xd2hh3r1Ek1lsSVzEwubk6RXGPd5WYVm8cbE67S3YA5p00XTXEoFqItX08nCgj_zacs_KrKfLd8NsSTNguTdn_Om8SHxrZS68VTiWdZKfhi6RICkF0DrZPRzRwmalfpp071QGR_AZgXvo1wJU_z9QipS1t1rGqrFZ3Sxfh6jOzyZLWdU4V0r7BS64nsQsooXJUBukipRqYsBl3_mV2xWIgOKSfnvG6L85xWaqPFPBeWX2ixawP0CU4S2Y1s,"The answer shows that removing the needle cap is the last step before administering the vaccine, so it doesn't mean it was fake.","Q: Why was Sadiq Khan being offered the flu jab?
+A: Flu kills an average of 8,000 people every year, and it can be particularly serious in older adults, very young children, and people with underlying health conditions.
+More people than ever are now eligible for the flu vaccine and 25 million people in England will be offered it for free by the NHS [Type: Extractive]
+Q: At what point do you need to take the cap off of the needle before use?
+A: 1. Holding the syringe barrel in one hand (avoid holding the syringe plunger), unscrew the syringe cap by twisting it anticlockwise.
+
+2. To attach the needle to the syringe, twist the needle clockwise into the syringe until you feel it lock (see picture).
+
+3. Remove the needle protector, which on occasion can be a little stiff.
+
+4. Administer the vaccine. [Type: Extractive]","https://ukhsa.blog.gov.uk/2019/10/04/flu-vaccination-the-main-things-to-know-about-the-2019-programme/
+https://www.medicines.org.uk/emc/product/3021/smpc#CLINICAL_PARTS",,,,,,,,,,,,,,pending,,
+249,Refuted,AARP endorsed President Biden and gave financial support to planned parenthood.,28-9-2020,Sunny Rowe,https://web.archive.org/web/20210720224558/https://leadstories.com/hoax-alert/2020/10/fact-check-the-aarp-did-not-endorse-biden-nor-give-financial-support-to-planned-parenthood.html,,The question-answer pairs are very well made. Both questions answers a part of the claim which is good,"Q: Did the AARP endorse any candidate in the 2020 US Presidential election?
+A: No [Type: Boolean]
+Q: Does the AARP give financial support to Planned Parenthood?
+A: No [Type: Boolean]","https://states.aarp.org/aarps-policy-political-partisan-activity
+https://www.aarp.org/content/dam/aarp/about_aarp/annual_reports/2019/2018-aarp-form-990-public-disclosure.pdf",,,,,,,,,,,,,,pending,,
+253,Refuted,The Nigerian government is donating $600 million to Democratic presidential nominee Joe Biden’s campaign.,28-9-2020,Biafra World News,https://web.archive.org/web/20210110235652/https://checkyourfact.com/2020/10/14/fact-check-nigeria-donating-600-million-bidens-campaign/,https://web.archive.org/web/20210110235652/https://www.facebook.com/permalink.php?story_fbid=153666029728810&id=111491143946299,"This claim is refuted. According to the QA pairs, there is no credible links between the alleged Nigerian government's donation of $600 million to Joe Biden. There is no evidence or credible news report about this claim. No one in the claim is on Biden's FEC campaign donors list either. Therefore, this claim is refuted.","Q: Where was this claim published?
+A: There are no credible news reports. [Type: Abstractive]
+Q: Who is attributed to have made this donation?
+A: Lai Mohammed, Minister of Information and Culture. [Type: Extractive]
+Q: Is Nigeria or Lai Mohammed  on the FEC list of donors to the Biden campaign?
+A: No [Type: Boolean]
+Q: Are donations to US presidential campaigns from foreign countries/nationals allowed?
+A: No [Type: Boolean]","Metadata
+https://www.fec.gov/data/receipts/?data_type=processed&committee_id=C00703975&contributor_name=Lai+Mohammed%2C&two_year_transaction_period=2020
+https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/who-can-and-cant-contribute/
+https://www.google.com/search?q=Nigeria+endorsing+Joe+Biden&rlz=1C5CHFA_enUS890US890&source=lnms&tbm=nws&sa=X&ved=2ahUKEwivhYzls7LsAhUPhXIEHazqCBgQ_AUoAXoECAsQAw&biw=1440&bih=722",,,,,,,,,,,,,,pending,,
+263,Refuted,"No news coverage was given to US President Donald Trump's executive order on September 24, 2020 guaranteed health coverage protections for those with preexisting conditions.",25-9-2020,Jon McConnell,https://web.archive.org/web/20210426170852/https://www.factcheck.org/2020/10/viral-post-overstates-effect-of-trumps-order-on-preexisting-conditions/,https://www.facebook.com/jon.mcconnell.35/posts/10164247247420451,News articles were provided in the answers.,"Q: What was US President Donald Trump's executive order regarding guaranteed health coverage protections for those with preexisting conditions?
+A: President Donald Trump signed an executive order that he claims preserve the Affordable Care Act's popular protections for people with preexisting conditions while his administration supports a case headed to the Supreme Court that could dismantle the health law. [Type: Extractive]
+Q: Would Trump's executive order protect pre-existing conditions?
+A: The order was largely symbolic and declares it is the policy of the United States for people with preexisting health conditions to be protected, avoiding the thorny details of how to ensure such protections without either leaving the ACA, or Obamacare, in place or crafting new comprehensive legislation. [Type: Abstractive]
+Q: Did Trump's executive order get any news coverage?
+A: Yes [Type: Boolean]
+A: More evidence of news coverage of the order. [Type: Abstractive]
+A: NBC news coverage [Type: Abstractive]","https://khn.org/morning-breakout/trump-affirms-preexisting-condition-protections-enacted-by-obamacare/
+https://web.archive.org/web/20210209111714/https://www.latimes.com/politics/story/2020-09-24/trump-promises-protect-sick-americans-does-order-do-that
+https://web.archive.org/web/20210312182031/https://www.nbcnews.com/politics/white-house/trump-signs-eos-health-care-does-little-change-existing-legislation-n1241022
+https://web.archive.org/web/20210410124107/https://www.healthline.com/health-news/why-trumps-executive-order-doesnt-protect-people-with-preexisting-conditions",,,,,,,,,,,,,,pending,,
+278,Refuted,The Victorian Premier Daniel Andrews of the state of Victoria in Australia accepted a multi-million dollar bribe from the IMF conditional on Andrews locking down the state of Victoria unnecessarily during the COVID-19 pandemic.,22-9-2020,Pete Evans,https://web.archive.org/web/20210515234346/https://www.aap.com.au/victoria-did-not-take-an-imf-bribe-in-return-for-lockdown/,https://web.archive.org/web/20210515234346/https://archive.vn/zYFgz,IMF does not lend on state level and Australia itself does not appear on IMF Credit outstanding list.,"Q: Has the state of Victoria borrowed money from the IMF?
+A: No [Type: Boolean]
+Q: Does Australia or the State of Victoria appear on the IMF's outstanding loan list?
+A: No [Type: Boolean]","https://web.archive.org/web/20210516171847/https://www.imf.org/en/About/Factsheets/IMF-Lending
+https://www.imf.org/external/np/fin/tad/extcred2.aspx?date1key=2020-08-31&reportdate=2020-08-31",,,,,,,,,,,,,,pending,,
+285,Refuted,California Governor Gavin Newsom made it so that convicted sexual predators have lighter sentences.,21-9-2020,,https://web.archive.org/web/20210225211651/https://misbar.com/en/factcheck/2020/09/21/california-gov-newsom-didn%E2%80%99t-reduce-penalties-for-sex-crimes,,The question-answer pair refute the claim,"Q: Did Californian Governor, Gavin Newsom, reduce sentences for convicted paedophiles and other sexual offenders?
+A: No [Type: Boolean]
+A: No.Bill SB145 made it so that LBBT+ people experienced the same legal treatment as heterosexual people.  It did not reduce sentences. [Type: Extractive]
+Q: Did Californian Governor, Gavin Newsom introduce Bill SB145?
+A: California Gov. Gavin Newsom (D) signed legislation changing the state’s sex offender law to allow judges to have a say on whether to list someone as a sex offender for having oral or anal sex with a minor. 
+
+The bill expands discretion already granted to judges to decide if a man should be on California’s sex offender registry, but the existing discretion had applied only to a man who had vaginal intercourse, The Associated Press reported. 
+
+The legislation Newsom signed Friday permits judges to use the same discretion when the case involves voluntary oral or anal sex. [Type: Extractive]","https://thehill.com/homenews/state-watch/516197-newsom-signs-legislation-changing-sex-offender-law-in-california/
+https://www.abc10.com/article/news/local/california/state-senator-defends-controversial-bill/103-f911e344-503d-4e45-8d70-c745cad03c80",,,,,,,,,,,,,,pending,,
+313,Refuted,"English Playwright William Shakespeare’s plays are the work of Amelia Bassano, a black woman who died unpublished and in poverty.",18-9-2020,Star J T Amean,https://web.archive.org/web/20201210012936/https://www.aap.com.au/amelia-bassano-did-not-write-shakespeares-plays/,https://archive.ph/JSdHD,It seems from the 1st QA0 that there isn't any validity to the claim. Therefore the claim is refuted,"Q: Did someone else write Shakespeare's plays?
+A: There is no evidence that someone else wrote Shakespeare's plays [Type: Abstractive]
+Q: Who was Amelia Bassano?
+A: Amelia Bassano also known as Aemilia Lanyer (b. 1569–d. 1645) was one of the first women in England to publish her original literary compositions. [Type: Extractive]","https://journals.sagepub.com/doi/pdf/10.1177/2158244018823465
+https://web.archive.org/web/20210121084700/https://www.oxfordbibliographies.com/view/document/obo-9780195399301/obo-9780195399301-0434.xml",,,,,,,,,,,,,,pending,,
+321,Refuted,"In 2019, 10 million fell ill from tuberculosis and 1.5 million died but nobody needs to wears a mask for tuberculosis",17-9-2020,,https://web.archive.org/web/20210125220939/https://www.politifact.com/factchecks/2020/sep/18/viral-image/post-misleads-about-covid-19-using-tuberculosis-da/,,"It is very  important that a Suspected or known infectious TB wears a surgical mask, to block the aerosols produced by coughing, talking, and breathing from spreading. ","Q: In 2011, the Curry International Tuberculosis Center published a booklet entitled: 
+Tuberculosis
+Infection Control, A Practical Manual For Preventing TB.  What information is given in there regarding the wearing of masks.
+A: Rapid identification of these patients will
+enable staff to mask or isolate them as necessary. [Type: Extractive]
+A: Individuals with suspected or known infectious TB should wear a surgical mask when not
+in an AIIR or a local exhaust ventilation (LEV) enclosure. The purpose of the mask is to
+block aerosols produced by coughing, talking, and breathing. Patients will be monitored
+to ensure compliance, and masks will be changed when damp. [Type: Extractive]
+A: ...a suspected infectious TB patient who needs a chest x-ray will be masked and escorted to the radiology department. The escort is provided to ensure that the patient does not remove the mask or get lost. [Type: Extractive]
+Q: What is the Curry International Tuberculosis Center?
+A: The Curry International Tuberculosis Center (CITC) creates, enhances and disseminates state-of-the-art resources and models of excellence and performs research to control and eliminate tuberculosis in the United States and internationally [Type: Extractive]","https://cghdde.berkeley.edu/partners/curry-international-tuberculosis-center
+https://www.currytbcenter.ucsf.edu/sites/default/files/ic_book_2011.pdf",,,,,,,,,,,,,,pending,,
+326,Refuted,COVID-19 was developed as a bioweapon from a research facility in China.,17-9-2020,Dfresh,https://web.archive.org/web/20210228055545/https://misbar.com/en/factcheck/2020/11/28/covid-probably-didn%E2%80%99t-come-from-a-chinese-lab,https://eu.usatoday.com/story/news/factcheck/2020/03/21/fact-check-did-coronavirus-originate-chinese-laboratory/2881150001/,"There is no evidence of COVID being developed as a bioweapon. There are suggestions that it could possibly have been accidentely released from a lab, but no suggestion of being made as a weapon, so the claim is refuted. ","Q: Where was Covid 19 first reported in humans?
+A: 1st known case of coronavirus traced back to November in China [Type: Extractive]
+Q: Do health professionals have an idea of what started the Covid 19 pandemic?
+A: Scientists now suspect this coronavirus, SARS-CoV-2, originated in a bat and somehow hopped to another animal, possibly the pangolin, which then passed it on to humans. [Type: Extractive]
+Q: Could Covid 19 have came from a lab?
+A: Some experts wonder whether a virus under study at a lab could have been accidentally released, something that’s happened in the past. [Type: Extractive]
+Q: What is the date of the claim?
+A: September 17th 2020 [Type: Extractive]
+Q: What was the consensus on how Covid came to infect humans at the time of the claim (September 2020) ?
+A: The virus probably arrived in humans through contact with animals raised for food supply, [Type: Extractive]","Metadata
+https://thebulletin.org/2020/03/experts-know-the-new-coronavirus-is-not-a-bioweapon-they-disagree-on-whether-it-could-have-leaked-from-a-research-lab/
+https://time.com/5834097/coronavirus-origin-bats-infect-cats-who/
+https://www.livescience.com/first-case-coronavirus-found.html",,,,,,,,,,,,,,pending,,
+334,Refuted,The US government has plans to force a COVID-19 vaccine on everyone.,16-9-2020,,https://web.archive.org/web/20210406002158/https://www.politifact.com/factchecks/2020/oct/06/blog-posting/no-government-hasnt-released-plans-force-covid-19-/,,Every American who wants to receive a COVID-19 vaccine can receive one. The  COVID-19 vaccine will freely be administered on people. ,"Q: Is the Covid Vaccine Compulsory in the USA?
+A: The Defense Department have said that they  will help distribute the vaccine, according to the release, but there is no mention of forcing it on Americans. An 11-page strategy to distribute a vaccine from the Pentagon and HHS also does not discuss forcing vaccines on people. [Type: Abstractive]",https://web.archive.org/web/20210405232153/https://www.hhs.gov/sites/default/files/strategy-for-distributing-covid-19-vaccine.pdf,,,,,,,,,,,,,,pending,,
+349,Refuted,Former FBI Director James Comey and former CIA Director John Brennan have been charged with multiple counts of treason.,14-9-2020,Paul Raczkowski,https://web.archive.org/web/20210408170641/https://checkyourfact.com/2020/10/05/fact-check-james-comey-john-brennan-charged-multiple-counts-treason/,https://www.facebook.com/paulraczkowski/posts/10158532554343377,"The questions establish that both men have held the offices associated with them in the claim, and then quotes the Department of Justice as a source, which is a reliable and impeccable source.","Q: What is the date of the claim?
+A: 14th September 2020 [Type: Extractive]
+Q: Was James Comey an FBI director in September of 2020?
+A: James Comey, the seventh Director of the Federal Bureau of Investigation (FBI), was fired by U.S. President Donald Trump on May 9, 2017 [Type: Extractive]
+Q: Is John Brennana  former CIA director?
+A: Yes [Type: Boolean]
+Q: Where could information about either man being charged with treason be found?
+A: Department of Justice’s website [Type: Abstractive]
+Q: Is there any details of either man being charged with treason on the department of Justice's website?
+A: No [Type: Boolean]","Metadata
+https://en.wikipedia.org/wiki/Dismissal_of_James_Comey
+https://en.wikipedia.org/wiki/John_Brennan_(CIA_officer)
+https://web.archive.org/web/20210819084719/https://search.justice.gov/search?query=James+Comey&op=Search&affiliate=justice",,,,,,,,,,,,,,pending,,
+393,Refuted,80 million ballots for the US November 3 2020 election will be mailed to US voters who didn’t request them.,2020-07-09,US President Donald Trump,https://web.archive.org/web/20210203175758/https://www.politifact.com/factchecks/2020/sep/10/donald-trump/trumps-misleading-claim-about-unsolicited-mail-bal/,https://web.archive.org/web/20210203175758/https://factba.se/transcript/donald-trump-press-conference-white-house-september-7-2020,the ballots are not unsolicited ,"Q: How many mail ballots will be cast in the election?
+A: Approximately 80 million mail ballots [Type: Abstractive]
+Q: Are these 80 Million ballots Unsolicited?
+A: No this is the estimated total amount of Mail Ballots altogether. [Type: Abstractive]",https://web.archive.org/web/20210126053648/https://www.nytimes.com/interactive/2020/08/11/us/politics/vote-by-mail-us-states.html,,,,,,,,,,,,,,pending,,
+399,Refuted,The Daily Trust news report about a UK judge ruling on how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria is fake news.,2020-06-09,Abdul,https://web.archive.org/web/20210721130716/https://dubawa.org/uk-court-affirms-daily-trusts-report-that-vp-sounded-early-warning-on-pid-fraud/,https://twitter.com/ishakaa/status/1302568634125111296?s=21,The UK Judge mentioned unambiguously  that Vice President Osinbajo described the P&ID transaction as  ‘a fraud on the nation'.,"Q: Was the UK Judges Ruling legitimate on 
+how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria ?
+A: Yes [Type: Boolean]",https://web.archive.org/web/20200926194342/https://www.lawyard.ng/wp-content/uploads/2020/09/Federal-Republic-of-Nigeria-v.-Process-Industrial-Developments-Ltd-20....pdf,,,,,,,,,,,,,,pending,,
+446,Refuted,"US President Trump made vaccines voluntary, not mandatory, in the US.",2020-01-09,,https://web.archive.org/web/20210711160610/https://www.usatoday.com/story/news/factcheck/2020/09/14/fact-check-list-10-donald-trump-accomplishments-3-true/3438025001/,,"The 1st Q&A pair points out that it could not be trumps desision to make, and the 2nd Q&A points out that some states did make it mandatory so refuting all of what is claimed ","Q: Are vaccinations a directive of the Federal government in the United States
+A: Vaccinations and their subsequent exemptions are a directive of the state and local government [Type: Abstractive]
+Q: Are vaccinations mandatory
+A: Some states make it compulsory whereas others have exemptions [Type: Abstractive]",https://web.archive.org/web/20210710222015/https://www.cdc.gov/vaccines/imz-managers/laws/state-reqs.html,,,,,,,,,,,,,,pending,,
+470,Refuted,Islamic study is a subject in UPSC exam,28-8-2020,Dr. Avni Chaudhary,https://web.archive.org/web/20201220194245/https://www.vishvasnews.com/english/politics/fact-check-islamic-study-is-not-a-subject-in-upsc-exam-the-viral-claim-is-fake/,https://archive.ph/wwMHQ,Islamic study is not in the list. Would have been nice to have a question that clarified what a UPSC exam was. ,"Q: What subjects are in UPSC exam?
+A: Current events of national and international importance. History of India and Indian National Movement. Indian and World Geography-Physical, Social, Economic Geography of India and the World. Indian Polity and Governance-Constitution, Political System, Panchayati Raj, Public Policy, Rights Issues, etc. Economic and Social Development-Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives, etc. General issues on Environmental ecology, Bio-diversity and Climate Change - that do not require subject specialization. General Science [Type: Extractive]
+Q: Is Islamic studies a subject in UPSC exam?
+A: No answer could be found. [Type: Unanswerable]",https://www.careerindia.com/upsc/syllabus-c2.html,,,,,,,,,,,,,,pending,,
+93,Supported,US Judge Amy Coney Barrett graduated at the top of her law school class at Notre Dame Law School,14-10-2020,,https://web.archive.org/web/20210416111205/https://www.usatoday.com/story/news/factcheck/2020/10/18/fact-check-claim-harris-barrett-legal-backgrounds-true/3669109001/,,Judge Amy Coney Barrett graduated at the top of her law school class,"Q: Which School of Law did US Judge Amy Coney Barrett graduate from?
+A: Notre Dame Law School. [Type: Extractive]
+Q: Did US Judge Amy Coney Barrett do well in Notre Dame Law School?
+A: Amy Coney Barrett graduated first in her class in law school. [Type: Abstractive]","https://www.politico.com/news/2020/09/20/amy-coney-barrett-supreme-court-419219
+https://www.wicker.senate.gov/2020/9/wicker-welcomes-nomination-of-judge-amy-coney-barrett-to-u-s-supreme-court",,,,,,,,,,,,,,pending,,
+98,Supported,The iPhone 12 won’t come with earphones and a charging adapter.,14-10-2020,,https://web.archive.org/web/20210301220920/https://misbar.com/en/factcheck/2020/10/14/iphone-12-will-come-without-charger-and-headphones,,"Evidence shows that Apple has removed the earphones and a charging adapter from Iphone 12 boxes to reduce carbon emissions and cut back on the mining and use of materials used to make these items. Hence, the claim is supported.","Q: Are headphones and a charger included in the box for new Iphone 12?
+A: No [Type: Boolean]
+Q: Why have apple decided not to include these items?
+A: Apple says it is removing those accessories to lessen iPhone packaging, reduce carbon emissions, and cut back on the mining and use of materials used to make these items. [Type: Abstractive]",https://metro.co.uk/2020/10/13/apple-iphone-12-wont-come-with-headphones-or-a-charger-in-the-box-13417398/,,,,,,,,,,,,,,pending,,
+136,Supported,Forty percent of Iowa’s energy resources are from renewables.,2020-08-10,Miller-Meeks,https://web.archive.org/web/20210301202738/https://www.thegazette.com/factchecker/fact-checker-miller-meeks-links-excess-deaths-to-hospital-shutdowns-20201026,,The wind energy which is renewable accounted for 42%,"Q: How much energy does Iowa get from renewable resources?
+A: Last Updated: May 21, 2020
+
+Wind energy from about 5,100 turbines powered 42% of Iowa's net generation...
+
+The state's remaining 2% of generation came from hydropower, biomass, petroleum, and solar. [Type: Extractive]","https://web.archive.org/web/20210219113526/https://www.eia.gov/state/analysis.php?sid=IA#:~:text=In%202019%2C%20about%202%25%20of,generation%20came%20from%20hydroelectric%20power.",,,,,,,,,,,,,,pending,,
+138,Supported,Fly swatters are now available on Joe Biden's online store.,2020-08-10,,https://web.archive.org/web/20210228124446/https://misbar.com/en/factcheck/2020/10/08/fly-swatters-in-bidens-ttore,,From the 1st QA it seems evident that you can actually buy the fly swatters on the Joe Biden store. Therefore the claim is supported,"Q: Can you buy fly swatters on the Joe Biden store?
+A: Yes [Type: Boolean]",https://web.archive.org/web/20221031110313/https://images-prod.misbar.com/articlebody/investigation_pkhkhj53i.jpg,,,,,,,,,,,,,,pending,,
+145,Supported,"When Joe Biden was US vice-president they took a month to act on information that might have saved Kayla Mueller, a humanitarian worker held hostage and sexually abused by the Islamic State terrorist group",2020-07-10,Vice president Pence,https://web.archive.org/web/20210118231855/https://www.washingtonpost.com/politics/2020/10/12/pences-jab-that-obama-hesitated-month-rescue-kayla-mueller/,,The President at the time Barack Obama did wait over a month before living the go-ahead for a daring bid to free western hostages - this was when Joe Biden was US Vice-President.,"Q: Who was US President at the time when a rescue plan for Kayla Mueller was sent to the White House for approval on June 26, 2014?
+A: On January 20, 2009, Barack Obama was inaugurated as the 44th President of the United States. 
+January 20, 2017: Leaving office [Type: Extractive]
+Q: How long did it take for the rescue plan to be implemented?
+A: Hostage rescue raid came too late: The president waited nearly a month before giving the go-ahead for a daring bid to free western hostages including James Foley [Type: Extractive]
+A: The U.S. government obtained intelligence on the possible location of American captives held by ISIS in Syria last year, but Obama administration officials waited nearly a month to launch a rescue mission because of concerns that the intelligence wasn’t conclusive and some of it had come from a foreign service, U.S. and British officials told The Daily Beast. [Type: Extractive]
+Q: What was the issue of the source of the intelligence that delayed tactics?
+A: The intelligence on where the hostages are was provided by a foreign intelligence partner and the White House doesn't give the green light, hoping to confirm and bolster the foreign intelligence before sending in troops, according to a counterterrorism official. [Type: Extractive]
+Q: What happened around July 4, 2014?
+A: Approximately July 4, 2014: The White House gives the go-ahead for the special operations forces rescue operation, though a counterterrorism official told ABC News the foreign intelligence on the hostages' location never got any better. The special operations team is able to sneak to the target deep inside Syria, but finds a ""dry hole"" -- no hostages are there. DNA evidence shows Kayla had been there, and later President Obama said the raid missed the hostages by one or two days since they had all been moved elsewhere. [Type: Extractive]
+Q: When was  Kayla Mueller captured by ISIS?
+A: Aug. 4, 2013:... over the next four months, Kayla is believed to have been kept in a series of ad hoc ISIS detention centers, where she is accused of being a spy and abused.
+
+Aug. 30, 2013: Kayla's parents, Carl and Marsha Mueller, receive a 10-second proof-of-life video showing Kayla in captivity. [Type: Extractive]
+Q: When did Kayla Mueller's parent first receive proof that she was alive?
+A: Aug. 30, 2013: Kayla's parents, Carl and Marsha Mueller, receive a 10-second proof-of-life video showing Kayla in captivity. [Type: Extractive]","https://abcnews.go.com/International/timeline-kayla-mueller-isis-captivity/story?id=41398733
+https://millercenter.org/president/barack-obama/key-events
+https://www.thedailybeast.com/white-house-stalled-isis-rescue-foley-sotloff-and-mueller-died?ref=scroll
+https://www.thetimes.co.uk/article/obamas-iraqi-mission-impossible-vcq608j5nxl",,,,,,,,,,,,,,pending,,
+147,Supported,"Because of a so-called trade war with China, America lost 300,000 manufacturing jobs.",2020-07-10,Kamala Haris,https://web.archive.org/web/20210415192738/https://www.bbc.co.uk/news/election-us-2020-54434575,,Claim is supported.,"Q: How many jobs have been lost because of the USA-China trade war?
+A: A report from Moody’s Analytics says that the trade war with China, which started in early 2018, cost 300,000 jobs through September, based on an economic simulation. [Type: Extractive]",https://edition.cnn.com/2020/01/14/politics/cost-of-china-tariff-trade-war/index.html,,,,,,,,,,,,,,pending,,
+170,Supported,U.S. President Donald Trump has departed Walter Reed hospital just a few days after testing positive for COVID-19.,2020-05-10,,https://web.archive.org/web/20210307085116/https://misbar.com/en/factcheck/2020/10/06/trump-is-out-of-the-hospital,,"Seeing that the President was discharged 4 days after he was admitted, its okay to support the claim giving that the it was specific in the number of days","Q: Did Trump depart from Reed hospital just a few days after testing positive for COVID-19  ?
+A: The claim is true. Trump’s infection has led to wide-spread speculation on how his campaign for re-election will continue, or, if he develops severe symptoms, whether or not he should continue to govern at all. Due to his age (the President is 73) and weight, he does fall within a group of high-risk patients. [Type: Extractive]
+Q: What day was Donald Trump admitted to the Walter Reed hospital due to his COVID-19 infection?
+A: October 2nd 2020 [Type: Extractive]
+Q: What day was Donald Trump discharged from the Walter Reed hospital due to his COVID-19 infection?
+A: October 6th 2020 [Type: Extractive]","https://twitter.com/PressSec45/status/1313522747432148993
+https://web.archive.org/web/20201011172409mp_/https://twitter.com/PressSec/status/1313522747432148993/photo/1
+https://web.archive.org/web/20220913152747/https://www.nytimes.com/2020/10/02/us/politics/trump-covid.html",,,,,,,,,,,,,,pending,,
+195,Supported,"Today, we grapple with multiple challenges with a population exceeding 200 million.",2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,Evidence shows that the population of Nigeria is at a estimated region of 200 million. ,"Q: What is the population of Nigeria?
+A: Estimated to be in the region of 200 million. [Type: Abstractive]",https://web.archive.org/web/20210419113335/https://dailytrust.com/concerns-as-nigeria-sets-for-census-after-14-years,,,,,,,,,,,,,,pending,,
+201,Supported,"U.S. President Donald Trump and his wife, First Lady Melania Trump, have tested positive for COVID-19",2020-01-10,,https://web.archive.org/web/20210306163840/https://misbar.com/en/factcheck/2020/10/02/u-s-president-trump-has-tested-positive-for-covid-19,,Confirmed they both tested positive.,"Q: Did Donald trump test positive for Covid 19 around Oct 1st 2020
+A: Yes [Type: Boolean]
+Q: Did Donald Trumps wife Melania Trump test positive for Covid 19 around 1st Oct 2020?
+A: Yes [Type: Boolean]
+Q: Was Trumps tweet about testing positive for covid confirmed officially?
+A: The President's physician, Navy Cmdr. Dr. Sean Conley, wrote that he received confirmation of the positive tests on Thursday evening. [Type: Extractive]","https://web.archive.org/web/20210306163840im_/https://images-prod.misbar.com/articlebody/origin_l6isuymct.jpg
+https://web.archive.org/web/20210307032452mp_/https://www.cnn.com/2020/10/01/politics/hope-hicks-positive-coronavirus/index.html",,,,,,,,,,,,,,pending,,
+202,Supported,"For a cumulative 29 of our 60 years of existence as a nation, we have been under military rule.",2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,The answers and sources clearly show that the years mentioned in the claim are correct so the claim is supported.,"Q: When did Nigeria gain her independence
+A: 1st October 1960 [Type: Abstractive]
+Q: How old was Nigeria in 2020
+A: 60 years [Type: Abstractive]
+Q: How long had Nigeria been under military rule from 1960 to 2020
+A: It spent 29 years under military rule [Type: Abstractive]","https://www.globalscientificjournal.com/researchpaper/MILITARY_ADMINISTRATION_IN_NIGERIA_29_YEARS_OF_SAD_POLITICAL_EXPERIENCE_AND_DEMOCRATIC_TRUNCATION.pdf
+https://www.thecable.ng/nigeria-is-60-here-are-those-whose-labour-led-to-independence",,,,,,,,,,,,,,pending,,
+205,Supported,Nigeria’s urban population at independence was approximately 7 million.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,The second answer and source show that the population was just under 7 million so the claim is supported.,"Q: When was Nigeria's Independence?
+A: October 1st 1960 [Type: Abstractive]
+Q: What was Nigeria's Urban population on October 1st 1960 ?
+A: For the share of Nigeria’s population classified as urban in 1960, Dr Thomas Spoorenberg directed us to the latest estimate from the World Urbanization Prospects: The 2018 Revision. 
+
+This was prepared by the UN’s department of economic and social affairs. Spoorenberg is the population affairs officer in the department’s population estimates and projection section. 
+
+The report estimates Nigeria’s 1960 urban population at 6.96 million. [Type: Abstractive]","https://web.archive.org/web/20210604144738/https://population.un.org/wup/Download/Files/WUP2018-F03-Urban_Population.xls
+https://www.globalcitizen.org/en/content/facts-to-know-about-nigeria-independence/",,,,,,,,,,,,,,pending,,
+213,Supported,"For a cumulative 29 of Nigeria's 60 years of existence as a nation, they have been under military rule",2020-01-10,President Muhammadu Buhari ,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,TRUE,"Q: When did Nigeria become independent?
+A: 1st October 1960 [Type: Extractive]
+Q: When did Nigeria first experience military rule?
+A: 1966-1979 [Type: Extractive]
+Q: Has Nigeria experienced military rule since 1979?
+A: Yes [Type: Boolean]","https://www.britannica.com/place/Nigeria/Military-regimes-1983-99
+https://www.jstor.org/stable/40201913
+https://www.thoughtco.com/chronological-list-of-african-independence-4070467",,,,,,,,,,,,,,pending,,
+218,Supported,52% of Nigeria’s current population lives in urban areas.,2020-01-10,Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,The percentage of Nigerian's living in urban settings is 51.96%,"Q: What is the current estimate of Nigeria's urban population?
+A: The UN's department of economic and social affairs estimates Nigeria's urban population at 107.11 million as of 2020. [Type: Abstractive]
+Q: What is the current estimate of Nigeria's rural population?
+A: The UN's department of economic and social affairs estimates Nigeria's urban population at 99.04 million as of 2020. [Type: Abstractive]
+Q: What is the total population of Nigeria in 2020?
+A: An estimated population of  206.15 million. [Type: Abstractive]
+Q: What is the percentage of Nigeria's rural population in 2020?
+A: 51.96% [Type: Abstractive]","https://web.archive.org/web/20210604144738/https://population.un.org/wup/Download/Files/WUP2018-F03-Urban_Population.xls
+https://web.archive.org/web/20210604144741/https://population.un.org/wup/Download/Files/WUP2018-F04-Rural_Population.xls",,,,,,,,,,,,,,pending,,
+221,Supported,Nigeria’s urban population at the time of independence was approximately 7 million,2020-01-10,President of Nigeria Muhammadu Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://web.archive.org/web/20210118154309/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,Nigeria became independent in 1960 when its propulation is 6.956 million.,"Q: What year did Nigeria become independent?
+A: On 1 October 1960, Nigeria was granted full independence from Great Britain. The country received its Freedom Charter, on 1 October 1960, from Princess Alexandra of Kent, the Queen's representative at the Nigerian independence ceremonies. [Type: Extractive]
+Q: What is the United Nations estimate for Nigeria's urban population 1960?
+A: 6.956 million [Type: Extractive]","https://artsandculture.google.com/story/remembering-nigeria-s-independence-day-through-past-and-present-places/vQJi5i4ZBtORKA
+https://population.un.org/wup/Download/Files/WUP2018-F03-Urban_Population.xls",,,,,,,,,,,,,,pending,,
+228,Supported,At independence in 1960  Nigeria had a population of 45 million.,2020-01-10,President Buhari,https://web.archive.org/web/20210526202243/https://africacheck.org/fact-checks/reports/nigerias-population-economy-and-history-fact-checking-buharis-independence-day,https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/,the population was 45.1 million. ,"Q: what did the president of nigeria really say in his speech on independence day?
+A: President Muhammadu Buhari’s independence day speech included claims about Nigeria’s historical and current population, the legacy of military rule, reduced government revenue and oil prices in other countries. [Type: Extractive]
+Q: What was Nigeria's population in 1960
+A: 45.1 million [Type: Extractive]","https://africacheck.org//sites/default/files/Copy-of-WUP2018-F03-Urban_Population.pdf
+https://web.archive.org/web/20210526202243/https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/",,,,,,,,,,,,,,pending,,
+255,Supported,"Amy Coney Barrett has a written track record, disagreeing adamantly with the U.S. Supreme Court’s decision to uphold the Affordable Care Act.",27-9-2020,Joe Biden,https://web.archive.org/web/20210720223641/https://www.politifact.com/factchecks/2020/sep/28/joe-biden/amy-coney-barrett-supreme-court-and-affordable-car/,,Confirmed in multiple answers.,"Q: Does Amy Coney Barrett support the Affordable Care Act?
+A: Amy Coney Barrett fought to undermine health care for millions in her attack on the Affordable Care Act, and publicly criticized Chief Justice John Roberts for his decision to uphold the law. [Type: Extractive]
+Q: What has Amy Coney Barrett said about the Affordable Care Act?
+A: Barrett criticized Chief Justice Roberts for his opinion in NFIB v. Sebelius, which upheld
+the ACA against a constitutional challenge, saying he “pushed the Affordable Care Act
+beyond its plausible meaning to save the statute. [Type: Extractive]","http://demandjustice.org/wp-content/uploads/2020/09/Demand-Justice-Fact-Sheet-on-Amy-Coney-Barrett.pdf
+https://www.afj.org/nominee/amy-coney-barrett/",,,,,,,,,,,,,,pending,,
+257,Supported,A Maryland man was sentenced to a year in jail for throwing parties.,27-9-2020,NBC NEWS,https://web.archive.org/web/20210720230340/https://misbar.com/en/factcheck/2020/09/28/man-sentenced-to-one-year-in-jail-for-throwing-parties,https://www.nbcnews.com/news/us-news/coronavirus-violations-get-maryland-man-sentenced-year-jail-n1241182,"This claim is supported. According to the QA pair, Shawn Marshall Myers was convicted of two counts of Failure to Comply with an Emergency Order. This conviction was based off a party of fifty people Myers held at his residence. This party breached the COVID-19 mandate at the time of large gatherings. He was then sentenced to 1 year of active incarceration. Therefore, this claim is supported. ","Q: Was a man from Maryland sentenced to jail for one year for throwing parties?
+A: LA PLATA, MD—Tony Covington, State’s Attorney for Charles County, announced that on Friday, September 25, 2020, Shawn Marshall Myers, after a bench trial before District Court Judge W. Louis Hennessy, was convicted of two counts of Failure to Comply with an Emergency Order. Immediately after the trial, Judge Hennessy sentenced Myers, 42 of Hughesville, to 1 year of active incarceration to be served at the Charles County Detention Center. Upon release, Myers will be on unsupervised probation for a period of three years.
+
+On March 22, 2020, multiple officers responded to Myers’ residence located in the 15200 block of Lukes Lane in Hughesville for the report of a large party violating Governor Larry Hogan’s State of Emergency and Large Gathering Orders. Large gatherings were strictly prohibited under the orders. Myers had approximately fifty people in attendance at his residence. Upon arrival, officers told Myers that his party violated the current mandate. Myers was argumentative with officers but eventually agreed to disband his party.
+
+Less than a week later, on March 27, 2020, officers responded back to Myers’ residence for another report of a party exceeding fifty people. Officers told Myers to disband the party, but again he was argumentative claiming he and his guests had the right to congregate. Beyond being argumentative, Myers directed his guests to stay in defiance of Governor Hogan’s Orders and the officers’ lawful orders to disband the party. Officers tried to reason with Myers and obtain his cooperation to no avail.Myers was then apprehended.
+
+Count 1 –Failure to Comply with an Emergency Order
+
+Guilty
+6 months suspended/$1,000 fine suspended
+Count 2 –Failure to Comply with an Emergency Order
+
+Guilty
+1 year in jail and $5,000 fine
+3 years unsupervised probation [Type: Extractive]
+A: Yes [Type: Boolean]",https://web.archive.org/web/20210617021926/https://southernmarylandchronicle.com/2020/09/25/shawn-myers-man-who-violated-covid-19-executive-order-sentenced-to-one-year-in-jail/,,,,,,,,,,,,,,pending,,
+267,Supported,Pennsylvania ballots will be rejected without outer and inner envelopes.,25-9-2020, Pennsylvania Women for Biden/Harris,https://web.archive.org/web/20210128113946/https://www.usatoday.com/story/news/factcheck/2020/10/15/fact-check-pennsylvania-mail-votes-need-2-envelopes-counted/5882964002/,,The answer shows that the envelopes must be included properly for the ballot to be counted. ,"Q: What does the official guidance on voting say about the use of a secrecy envelope?
+A: As soon as the voter receives the ballot, the voter should:
+Read the instructions carefully.
+Fill out the ballot, being sure to follow instructions on how to mark selections.
+Seal the ballot in the white inner secrecy envelope that says, ""official ballot."" Make sure not to make any stray marks on the envelope.
+Then seal the inner secrecy envelope in the pre-addressed outer return envelope where the voter must sign.
+Complete and sign the voter's declaration on the outside of the outer return envelope.
+
+§ If the ballot is not enclosed in both envelopes, it will not be counted.
+
+§ If the voter does not sign the outer envelope, the ballot will not be counted. [Type: Extractive]",https://www.media.pa.gov/Pages/State-details.aspx?newsid=406,,,,,,,,,,,,,,pending,,
+305,Supported,"Photo Showing the remains of Vladimir Komarov, a man who fell from space, in 1967.",19-9-2020,,https://web.archive.org/web/20210527154031/https://newsmeter.in/fact-check-picture-showing-charred-body-in-an-open-coffin-is-indeed-of-vladimir-komarov/,,"The questions discuss that this man did fall from space, but it would be nice to see the photograph as although these events occurred, I don't know if that is what they are looking at. ","Q: How did Vladimir Komarov die?
+A: On April 24th, 1967 Space claimed its first victim.
+
+Soviet cosmonaut Vladimir Komarov crashed into the ground when the main parachute on his Soyuz 1 descent capsule failed to open. 
+
+He became the first cosmonaut to fly into space twice and the first man to die while on a space mission (Apollo 1 tragedy happened 3 months earlier during the ground test). [Type: Extractive]
+Q: Were Vladimir Komarov  remains found?
+A: Yes [Type: Boolean]","https://wonderdome.co.uk/cosmonaut-vladimir-komarov-soyuz/
+https://www.vice.com/en/article/aeeyep/when-soyuz-1-fell-to-earth",,,,,,,,,,,,,,pending,,
+308,Supported,Sightway Capital is owned by Two Sigma Investments.,19-9-2020,Freya Ferdinand II,https://web.archive.org/web/20201002180455/https://leadstories.com/hoax-alert/2020/09/fact-check-george-soros-does-not-own-two-sigma-investments.html,https://www.facebook.com/ethereal.essence.16718979/posts/3438164466263873,The Sightway Capital is owned by Two Sigma Investments ,"Q: Who owns Sightway Capital?
+A: Two Sigma [Type: Extractive]",https://www.greatrockcapital.com/about,,,,,,,,,,,,,,pending,,
+330,Supported,Ventura County election officials are reducing voting locations in order to limit in-person voter turnout.,16-9-2020,Bill Gentry,https://web.archive.org/web/20210127175751/https://www.usatoday.com/story/news/factcheck/2020/10/07/fact-check-california-has-fewer-polling-places-more-in-person-voting-time/3607312001/,https://www.facebook.com/photo.php?fbid=10221206980297678&set=a.3672377481639&type=3&theater%20%7C,"Facing the uncertainty of an election conducted during the COVID-19 pandemic, state officials are encouraging vote-by-mail and sending every California voter a ballot","Q: Is California reducing its amount of voting stations?
+A: Reductions in voting stations are across the board some examples are Sacramento County opened 84 vote centers for the March primary, but has only secured 39 sites for the November election. In Santa Barbara, officials are reducing the number of in-person voting sites from 86 to 25. [Type: Abstractive]
+Q: Why are Voting station numbers being reduced?
+A: Facing the uncertainty of an election conducted during the COVID-19 pandemic, state officials are encouraging vote-by-mail and sending every California voter a ballot [Type: Extractive]",https://web.archive.org/web/20201231224227/https://www.kqed.org/news/11832331/newsom-signs-plan-for-polling-place-changes-in-face-of-pandemic,,,,,,,,,,,,,,pending,,
+347,Supported,"Tourism, lockdown key to deep New Zealand recession.",14-9-2020,Grant Robertson,https://web.archive.org/web/20201227064519/https://www.aap.com.au/tourism-lockdown-linked-to-deep-new-zealand-recession/,,"Clear questions, showing the loss of tourism would have a significant effect on GDP.","Q: how dependent is New Zealand on Tourism
+A: Tourism accounts for 5.8% of New Zealand's GDP and industries supporting tourism accounts for 4% [Type: Extractive]
+Q: what effect did the lockdown have on New Zealand
+A: With the GDP set to be announced on Thursday many economists are predicting it to be worse than Australia due to New Zealand's lockdown being stricter than our neighbours across the ditch.
+Our strong dependence on tourism is also a factor with Robertson saying it can make up between 7-8% of our GDP.
+""This will be the worst quarter New Zealand has seen""
+Robertson says this was always going to be the case due to the strategy the government took to eliminate Covid-19. [Type: Extractive]","https://web.archive.org/web/20200920074235/https://www.iheart.com/podcast/211-heather-du-plessis-allan-24837940/episode/grant-robertson-this-will-be-the-71437888/
+https://web.archive.org/web/20201207180306mp_/https://www.stats.govt.nz/topics/economy",,,,,,,,,,,,,,pending,,
+374,Supported,Police: Political Activists Didn’t Cause Oregon’s Wildfires,2020-11-09,Saranac Hale Spencer,https://web.archive.org/web/20210711055618/https://www.factcheck.org/2020/09/police-political-activists-didnt-cause-oregons-wildfires/,https://web.archive.org/web/20210711055618/https://fsapps.nwcg.gov/,"Oregon’s Wildfires were majorly caused by rare windstorm in addition  to the heat which Oregon was experiencing at that time, according to NASA. ","Q: Did the FBI confirm this to be true
+A: Police departments across that state have pleaded with residents to disregard the unfounded claims, and the FBI’s office in Portland issued a statement explaining that agents had investigated several such reports “and found them to be untrue.” [Type: Extractive]
+Q: What was the cause of the fires?
+A: While the causes of the fires may vary, NASA explained in a recent post that the scale of the fires is due to “an unprecedented and historically rare windstorm that  swept through the Cascade foothills in the afternoon of Monday Sep. 7 through the morning of Tuesday Sep. 8.”
+
+Windstorms of that magnitude don’t usually happen until winter, the NASA post said, explaining, “In addition to the heat, it is another example of the changing weather patterns that are being seen.” [Type: Abstractive]","https://web.archive.org/web/20210708130138/https://www.nasa.gov/image-feature/goddard/2020/nasas-aqua-satellite-captures-devastating-wildfires-in-oregon
+https://web.archive.org/web/20210711055618/https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-releases-statement-on-misinformation-related-to-wildfires",,,,,,,,,,,,,,pending,,
+398,Supported,The Indian government has launched an online health consultation scheme.,2020-06-09,Manish Pangotra,https://web.archive.org/web/20201026064418/https://newsmeter.in/fact-check-yes-indian-govt-has-launched-online-health-consultation-scheme/,https://web.archive.org/web/20200906154343/https://twitter.com/ManishPangotra5/status/1302632954393325568,The source shows the number of completed online health consultations.,"Q: What is name is given to an online health consultation?
+A: Telemedicine, which is a method of providing medical care remotely, usually through video chat [Type: Abstractive]
+Q: Does India' have a national telemedicine service?
+A: Yes [Type: Boolean]","https://economictimes.indiatimes.com/news/politics-and-nation/national-telemedicine-service-completes-over-1-5-lakh-consultations-health-ministry/articleshow/77449268.cms?from=mdr
+https://www.medicalnewstoday.com/articles/telemedicine-benefits",,,,,,,,,,,,,,pending,,
+406,Supported,"Willie Obiano, the Governor of Anambra State in Nigeria, procured over 100 SUVs as gifts for Anambra state traditional monarchs.",2020-05-09,@henryshield ,https://web.archive.org/web/20201209141640/https://dubawa.org/governor-willie-obianos-100-car-splash-to-anambra-state-monarchs-is-true/,https://twitter.com/henryshield/status/1302280921391996928?s=20,Supported with media coverage.,"Q: Does a photo exist of the SUV's being handed over?
+A: Yes [Type: Boolean]
+Q: Where did the ceremony take place?
+A: The handover ceremony took place at Dr Alex Ekwueme Square, Awka [Type: Abstractive]
+Q: Who attended the ceremony?
+A: The handover ceremony which took place at Dr Alex Ekwueme Square Awka, had all the beneficiaries in attendance including the Chairman Anambra state Traditional Rulers Council, Igwe Nnaemeka Achebe who is also the Chairman South East Traditional Rulers Council. [Type: Extractive]",http://www.absradiotv.com/2020/09/06/stakeholders-react-to-presentation-of-vehicles-to-anambra-traditional-rulers-by-obiano/,,,,,,,,,,,,,,pending,,
+429,Supported,A Pakistani website was hacked by an Indian cyber group to wish Pawan Kalyan a Happy Birthday.,2020-02-09,All in 1 memes 2.0,https://web.archive.org/web/20210603052233/https://newsmeter.in/fact-check-pakistani-educational-website-hacked-by-indian-cyber-troops-to-wish-pk-on-his-birthday/,,The 4th Q&A shows that there were birthday wishes put on the hacked website so the claim is supported.,"Q: Where was this claim published?
+A: Indian Cyber Troops [Type: Extractive]
+A: Content is no longer available on Facebook [Type: Abstractive]
+Q: Who are Indian Cyber Troops?
+A: It’s not a new thing these days to hear Indian Cyber Troops hacking Nepali websites. Gradually time and again the action is repeated [Type: Extractive]
+A: On August 15 Saturday, Indian Hackers did a massive Cyber Attack on Pakistan Websites,
+
+An Indian Hacktivist Group Named Indian Cyber Troops said they are Celebrating Independence Day by Hacking Pakistani websites [Type: Extractive]
+Q: Were Pakistani websites hacked by Indian cyber troops?
+A: Yes [Type: Boolean]
+A: Yes [Type: Boolean]
+Q: Did Indian cyber troops wish Pawan Kalyan a Happy Birthday when they hacked Pakistani websites?
+A: Birthday messages for Pawan Kalyan did appear on the hacked Pakistani websites. [Type: Abstractive]","Metadata
+https://insidergeeks.com/indian-cyber-troops-again-hacked-nepali-website/
+https://web.archive.org/web/20201001082923/https://newsd.in/pakistan-website-hacked-indian-hackers-write-ramlalla-hum-aaege-mandir-karachi-lahore-me-banaege/
+https://web.archive.org/web/20210603203816/https://zeenews.india.com/india/indian-hackers-give-befitting-reply-to-pakistans-agenda-on-ram-temple-kashmir-hack-over-80-pakistani-websites-2303465.html
+https://web.archive.org/web/20221212111529/https://www.youtube.com/watch?v=lm-sPzoP_Jw
+https://www.facebook.com/IndianCyberTroops/posts/635643360421831",,,,,,,,,,,,,,pending,,
+453,Supported,US President Trump instructed his administration to halt funding of the World Health Organization while a review was conducted to assess the World Health Organization’s role regarding the spread of coronavirus.,2020-01-09,,https://web.archive.org/web/20210711160610/https://www.usatoday.com/story/news/factcheck/2020/09/14/fact-check-list-10-donald-trump-accomplishments-3-true/3438025001/,,"Q&A 2 states that as of May 31, the U.S. owed WHO $203 million in contribution fees, but As of Aug. 31, the U.S. owed only about $99 million, that report states, indicating the U.S. has paid WHO since Trump’s claims were made. This suggests that the president did not stop funding WHO in 2020. 
+However Q&A 3 reports he did pause funding as claimed as he though they were not being accountable.","Q: Did President Trump announce plans to stop funding the World Health Organization?
+A: No answer could be found as the website quoted in the article is no longer available. [Type: Extractive]
+Q: Has the US paid the World Health Organisation money since Trumps statement in 2020?
+A: AFP reported that as of May 31, the U.S. owed WHO $203 million in outstanding assessed contribution fees, according to a WHO status report. As of Aug. 31, the U.S. owes WHO about $99 million, that report states, indicating the U.S. has paid WHO since Trump’s claims were made. This suggests that the president did not stop funding WHO in 2020. [Type: Abstractive]
+Q: Why did Trump defund WHO
+A: Because he felt they weren't being accountable [Type: Abstractive]","https://web.archive.org/web/20210711160610/https://www.whitehouse.gov/briefings-statements/remarks-president-trump-press-briefing/
+https://www.whitehouse.gov/briefings-statements/remarks-president-trump-press-briefing/
+https://www.who.int/about/finances-accountability/funding/AC_Status_Report_2020.pdf?ua=1",,,,,,,,,,,,,,pending,,
+459,Supported,"In 2018, South African police service officers were accused of 217 cases of torture and 3,661 cases of assault.",31-8-2020,,https://web.archive.org/web/20210425200940/https://africacheck.org/fact-checks/reports/police-violence-south-africa-what-do-numbers-show,https://africacheck.org/sites/default/files/screenshot-www.instagram.com-2020.08.31-10_07_31-2.png,"Even though the figures were not exactly the same they are very close, so could be considered correct. ","Q: How many cases of torture were brought against the South African police department
+A: 270 cases in the 2018/2019 year [Type: Extractive]
+Q: How many cases of assault were brought against the South African police
+A: 3, 835 cases [Type: Extractive]",https://web.archive.org/web/20210307093430/http://www.ipid.gov.za/sites/default/files/documents/121764%20IPID%20Annual%20Report%20FULL.pdf#page=38,,,,,,,,,,,,,,pending,,
+468,Supported,"Even with a voter ID card, you won’t be allowed to vote in Ghana on December 7 if your name is not found in the Register. So, people should take advantage of the exhibition exercise to verify their names.",28-8-2020,John Mahama,https://web.archive.org/web/20210225104602/https://ghanafact.com/2020/08/fact-check-john-mahama-on-the-campaign-trail/,,The answer clearly states that the voter has to verify their name before voting so the claim is supported.,"Q: Can voters still vote in Ghana if their name is not found in the register?
+A: No [Type: Boolean]",Metadata,,,,,,,,,,,,,,pending,,
+497,Supported,Nancy Pelosi says that China would prefer Joe Biden.,26-8-2020,Marsha Blackburn,https://web.archive.org/web/20210504031017/https://www.politifact.com/article/2020/aug/27/fact-checking-night-three-2020-rnc/,,Quote is confirmed in QA pair.,"Q: Did Nancy Pelosi say that China would prefer Joe Biden to win the US Presidential election?
+A: Yes [Type: Boolean]
+Q: In what context did she say this?
+A: In repsonse to:
+BASH: OK. So, I want to ask -- I really want to ask you about something different, but it's so important, and that is the security of American elections.
+
+A top elections official in the office of the Director of National Intelligence revealed on Friday that Russia is using a range of measures to primarily denigrate former Vice President Joe Biden, while both China and Iran don't want President Trump to win reelection.
+
+[09:35:03]
+
+You suggested in a statement that the threats posed by these three countries are not equal [Type: Extractive]
+Q: Would China prefer Trump o win the election
+A: Russia is actively working to ""denigrate"" presumptive Democratic presidential nominee Joe Biden, while China views President Donald Trump as ""unpredictable"" and prefers that he not win re-election, according to a new U.S. intelligence assessment. [Type: Extractive]","http://transcripts.cnn.com/TRANSCRIPTS/2008/09/sotu.01.html
+https://www.usatoday.com/story/news/politics/2020/08/07/us-intel-russia-working-defeat-biden-china-prefers-trump-loss/3322115001/",,,,,,,,,,,,,,pending,,
