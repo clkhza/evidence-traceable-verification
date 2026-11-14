@@ -32,16 +32,19 @@ ETVM organizes verification around traceable relationships between claims, evide
 ## Repository structure
 
 evidence-traceable-verification/
+│
 ├── README.md
 ├── CITATION.cff
-├── docs/
-│   ├── methodology.md
-│   ├── annotation-rubric.md
-│   └── ethics.md
-└── data/
-    ├── README.md
-    ├── ai_annotation_master_sheet_Claude.csv
-    └── ai_annotation_master_sheet.csv
+│
+├── data/
+│   ├── ai_annotation_master_sheet_Claude.csv
+│   ├── ai_annotation_master_sheet.csv
+│   └── README.md
+│
+└── docs/
+    ├── methodology.md
+    ├── annotation-rubric.md
+    └── ethics.md
     
 ## Reproducibility and limitations
 
